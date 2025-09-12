@@ -14,15 +14,20 @@ CLAUSES
 	city(shanghai,chaina).
 	city(cairo,egypt).
 	city(giza,egypt).
+	city(hanoi, vietnam).
+	city(sidnei, avstralia).
 	
 	city(X,europe):- city(X,england).
 	city(X,europe):- city(X,russia).
 	city(X,asia):- city(X,jupan).
 	city(X,asia):- city(X,chaina).
 	city(X,africa):- city(X,egypt).
+	city(X,asia):- city(X,vietnam).
 	
 	strana(england,europe).
 	strana(russia,europe).
 	strana(jupan,asia).
 	strana(chaina,asia).
 	strana(egypt,africa).
+	strana(vietnam, asia).
+	strana(avstralia, avstralia).
