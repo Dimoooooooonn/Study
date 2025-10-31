@@ -129,6 +129,13 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CFour.h" />
+    <ClInclude Include="COne.h" />
+    <ClInclude Include="CThree.h" />
+    <ClInclude Include="CTwo.h" />
+    <ClInclude Include="printAll.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
