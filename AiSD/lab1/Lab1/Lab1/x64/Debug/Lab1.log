@@ -1,4 +1,0 @@
-﻿  main.cpp
-G:\study\Works\AiSD\lab1\Lab1\Lab1\main.cpp(69,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-G:\study\Works\AiSD\lab1\Lab1\Lab1\main.cpp(94,6): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
-  Lab1.vcxproj -> G:\study\Works\AiSD\lab1\Lab1\x64\Debug\Lab1.exe
