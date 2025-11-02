@@ -1,5 +1,4 @@
 ﻿#include <iostream>
-#include <stdlib.h>
 #include <chrono>
 
 using namespace std;
@@ -12,13 +11,17 @@ int arr1[] = { 40, 11, 83, 57, 32, 21, 75, 64 };
 int arr2[] = { 5, 11, 6, 4, 9, 2, 15, 7 };
 
 void ShellSort(int* arr, int n) {
+	int j;
 	for (int d = n / 2; d > 0; d /= 2) {
-		for (int i = 0; i < n && i+d != n; i++) {
-			if (arr[i] > arr[i + d]) {
-				int temp = arr[i];
-				arr[i] = arr[i + d];
-				arr[i + d] = temp;
-				}
+		for (int i = d; i < n; i++) {
+			int temp = arr[i];
+			for (j = i; j >= d; j-=d) {
+				if (temp < arr[j - d])
+					arr[j] = arr[j - d];
+				else
+					break;
+			}
+			arr[j] = temp;
 		}
 	}
 }
@@ -42,7 +45,7 @@ void Copy(int* arr1, int* arr2, int n) {
 	}
 }
 
-void ArrayOutput(int* arr, int n) {
+void ArrayPrint(int* arr, int n) {
 	for (int i = 0; i < n; i++) {
 		cout << arr[i] << " ";
 	}
@@ -50,17 +53,17 @@ void ArrayOutput(int* arr, int n) {
 }
 
 void Demonstration() {
-	cout << "Демонстрация роботоспособности сортировок:" << endl;
+	cout << "Демонстрация рaботоспособности сортировок:" << endl;
 	cout << endl << "Сортировка Шелла" << endl << "Неотсортированный массив:" << endl;
-	ArrayOutput(arr1, v);
+	ArrayPrint(arr1, v);
 	ShellSort(arr1, v);
 	cout << "Отсортированный массив:" << endl;
-	ArrayOutput(arr1, v);
+	ArrayPrint(arr1, v);
 	cout << endl << "Сортировка Выбором" << endl << "Неотсортированный массив:" << endl;
-	ArrayOutput(arr2, v);
+	ArrayPrint(arr2, v);
 	SelectionSort(arr2, v);
 	cout << "Отсортированный массив:" << endl;
-	ArrayOutput(arr2, v);
+	ArrayPrint(arr2, v);
 }
 
 void CalculationTime() {
@@ -77,30 +80,34 @@ void CalculationTime() {
 	}
 	auto end = high_resolution_clock::now();
 	duration<float> t_copy = end - start;
-	float t_copy = t_copy.count();
+	float T_copy = t_copy.count();
 
-	auto start = high_resolution_clock::now();
+	auto start1 = high_resolution_clock::now();
 	for (int i = 0; i < nn; i++) {
 		Copy(arr_original, arr, n);
 		ShellSort(arr, n);
 	}
-	auto end = high_resolution_clock::now();
-	duration<float> t_shell_sort = end - start;
-	float t_shell_sort = t_copy.count();
+	auto end1 = high_resolution_clock::now();
+	duration<float> t_shell_sort = end1 - start1;
+	float T_shell_sort = t_shell_sort.count();
+	//ArrayPrint(arr, n);
+	cout << "Среднее время сортировки Шелла в " << nn << " измерений при размере массива " << n << " -- " << T_shell_sort - T_copy << " секунд" << endl;
 
-	auto start = high_resolution_clock::now();
+	auto start2 = high_resolution_clock::now();
 	for (int i = 0; i < nn; i++) {
 		Copy(arr_original, arr, n);
 		SelectionSort(arr, n);
 	}
-	auto end = high_resolution_clock::now();
-	duration<float> t_selection_sort = end - start;
-	float t_selection_sort = t_copy.count();
+	auto end2 = high_resolution_clock::now();
+	duration<float> t_selection_sort = end2 - start2;
+	float T_selection_sort = t_selection_sort.count();
+	//ArrayPrint(arr, n);
+	cout << "Среднее время сортировки выбором в " << nn << " измерений при размере массива " << n << " -- " << T_selection_sort - T_copy << "	секунд" << endl;
 
 }
 
 void main() {
 	setlocale(LC_ALL, "");
-	//Demonstration();
+	Demonstration();
 	CalculationTime();
 }

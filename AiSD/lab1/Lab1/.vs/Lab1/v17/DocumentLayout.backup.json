@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "G:\\study\\Works\\AiSD\\lab1\\Lab1\\",
+  "WorkspaceRootPath": "C:\\Programs\\Programs\\Study\\AiSD\\lab1\\Lab1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2648E654-BD32-4142-8C3A-AE178C7127E8}|Lab1\\Lab1.vcxproj|G:\\study\\Works\\AiSD\\lab1\\Lab1\\Lab1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{2648E654-BD32-4142-8C3A-AE178C7127E8}|Lab1\\Lab1.vcxproj|C:\\Programs\\Programs\\Study\\AiSD\\lab1\\Lab1\\Lab1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{2648E654-BD32-4142-8C3A-AE178C7127E8}|Lab1\\Lab1.vcxproj|solutionrelative:Lab1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -28,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "G:\\study\\Works\\AiSD\\lab1\\Lab1\\Lab1\\main.cpp",
+              "DocumentMoniker": "C:\\Programs\\Programs\\Study\\AiSD\\lab1\\Lab1\\Lab1\\main.cpp",
               "RelativeDocumentMoniker": "Lab1\\main.cpp",
-              "ToolTip": "G:\\study\\Works\\AiSD\\lab1\\Lab1\\Lab1\\main.cpp",
-              "RelativeToolTip": "Lab1\\main.cpp",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAE4AAAAmAAAAAAAAAA==",
+              "ToolTip": "C:\\Programs\\Programs\\Study\\AiSD\\lab1\\Lab1\\Lab1\\main.cpp*",
+              "RelativeToolTip": "Lab1\\main.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-10-31T21:57:47.12Z",
               "EditorCaption": ""
