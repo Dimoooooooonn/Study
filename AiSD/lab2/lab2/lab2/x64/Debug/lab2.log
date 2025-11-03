@@ -1,0 +1,11 @@
+﻿  lab2.cpp
+G:\study\Works\AiSD\lab2\lab2\lab2\lab2.cpp(12,57): warning C4267: аргумент: преобразование из "size_t" в "_Ty"; возможна потеря данных
+G:\study\Works\AiSD\lab2\lab2\lab2\lab2.cpp(12,57): warning C4267:         with
+G:\study\Works\AiSD\lab2\lab2\lab2\lab2.cpp(12,57): warning C4267:         [
+G:\study\Works\AiSD\lab2\lab2\lab2\lab2.cpp(12,57): warning C4267:             _Ty=int
+G:\study\Works\AiSD\lab2\lab2\lab2\lab2.cpp(12,57): warning C4267:         ]
+G:\study\Works\AiSD\lab2\lab2\lab2\lab2.cpp(33,32): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+G:\study\Works\AiSD\lab2\lab2\lab2\lab2.cpp(37,44): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+G:\study\Works\AiSD\lab2\lab2\lab2\lab2.cpp(40,14): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+G:\study\Works\AiSD\lab2\lab2\lab2\lab2.cpp(55,36): warning C4267: +=: преобразование из "size_t" в "int"; возможна потеря данных
+  lab2.vcxproj -> G:\study\Works\AiSD\lab2\lab2\x64\Debug\lab2.exe
