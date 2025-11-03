@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "G:\\study\\Works\\AiSD\\lab4\\lab4\\",
+  "WorkspaceRootPath": "C:\\Programs\\Programs\\Study\\AiSD\\lab4\\lab4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F9C8A401-6267-4240-A3ED-407F743BA1A0}|lab4\\lab4.vcxproj|G:\\study\\Works\\AiSD\\lab4\\lab4\\lab4\\lab4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{F9C8A401-6267-4240-A3ED-407F743BA1A0}|lab4\\lab4.vcxproj|C:\\Programs\\Programs\\Study\\AiSD\\lab4\\lab4\\lab4\\lab4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F9C8A401-6267-4240-A3ED-407F743BA1A0}|lab4\\lab4.vcxproj|solutionrelative:lab4\\lab4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -28,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "lab4.cpp",
-              "DocumentMoniker": "G:\\study\\Works\\AiSD\\lab4\\lab4\\lab4\\lab4.cpp",
+              "DocumentMoniker": "C:\\Programs\\Programs\\Study\\AiSD\\lab4\\lab4\\lab4\\lab4.cpp",
               "RelativeDocumentMoniker": "lab4\\lab4.cpp",
-              "ToolTip": "G:\\study\\Works\\AiSD\\lab4\\lab4\\lab4\\lab4.cpp*",
-              "RelativeToolTip": "lab4\\lab4.cpp*",
-              "ViewState": "AgIAAJYAAAAAAAAAAAAQwJIAAAAKAAAAAAAAAA==",
+              "ToolTip": "C:\\Programs\\Programs\\Study\\AiSD\\lab4\\lab4\\lab4\\lab4.cpp",
+              "RelativeToolTip": "lab4\\lab4.cpp",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAAALIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-03T04:09:42.398Z",
               "EditorCaption": ""

@@ -1,6 +1,6 @@
 ﻿  lab4.cpp
-G:\study\Works\AiSD\lab4\lab4\lab4\lab4.cpp(24,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-G:\study\Works\AiSD\lab4\lab4\lab4\lab4.cpp(57,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-G:\study\Works\AiSD\lab4\lab4\lab4\lab4.cpp(90,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-G:\study\Works\AiSD\lab4\lab4\lab4\lab4.cpp(102,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-  lab4.vcxproj -> G:\study\Works\AiSD\lab4\lab4\x64\Debug\lab4.exe
+C:\Programs\Programs\Study\AiSD\lab4\lab4\lab4\lab4.cpp(24,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Programs\Programs\Study\AiSD\lab4\lab4\lab4\lab4.cpp(57,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Programs\Programs\Study\AiSD\lab4\lab4\lab4\lab4.cpp(90,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Programs\Programs\Study\AiSD\lab4\lab4\lab4\lab4.cpp(102,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  lab4.vcxproj -> C:\Programs\Programs\Study\AiSD\lab4\lab4\x64\Debug\lab4.exe
