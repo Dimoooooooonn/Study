@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,10 +8,29 @@
 <body bgcolor="f2f5d0">
     
     <center>
-    <img src="logo.gif" width="70" height="111">
+    <img src="logo.gif" width="150" height="111">
     </center>
 
     <hr width="100%" size="6" color="black">
+
+    <table border="2" width="80%" align="center" bgcolor="#f5f5f5">
+    <tr>
+    <th><a href="index.html">Главная</a></th>
+    <th bgcolor="Lime"><a href="https://hermitagemuseum.ru/">Государственный
+    Эрмитаж </a></th>
+    <th bgcolor="Cyan"><a href="https://www.spb-guide.ru/admiraltejstvo.htm">Здание
+    главного Адмиралтейства </a></th>
+    <th bgcolor="DeepPink"><a href="https://petropavlovskaya.org/">Петропавловская
+    крепость </a></th>
+    <th bgcolor="Gold"><a href="https://mos-holidays.ru/spb/dostoprimechatelnosti/smolnyjmonastyr/">Смольный монастырь </a></th></tr>
+    </table>
+
+    <p> <font face="SEGOE PRINT" size="4" color="red"> Гимн Санкт-Петербурга
+    </font><br>
+    <audio controls
+    <source src="gimn.mp3">
+    </audio>
+    </p>
 
     <p align="justify"><font face="Arial" size="5" color="green">На нашей планете есть множество естественных и искусственных объектов, которые
 поражают наше воображение. Это <u>пирамиды</u> в <b>Египте</b> и <b>Мексике</b>, <i><u>истуканы</u></i> на острове Пасхи,
@@ -41,6 +60,58 @@
     </td>
     </tr>
     </table>
+    <table border="1" align="center">
+
+    <tr align="center" valign="center">
+    <td> <a  href="mednii.jpg" target="_blank"><img align="left" width="150" height="150" src="mednii.jpg" alt="Медный
+всадник"></a> </td>
+    <td> <a  href="ermitag.jpg" target="_blank"><img align="left" width="150" height="150" src="ermitag.jpg" alt="Государственный Эрмитаж"></a> </td>
+    <td> <a  href="avrora.jpg" target="_blank"><img align="left" width="150" height="150" src="avrora.jpg" alt="Крейсер «Аврора»"></a> </td>
+    </tr>
+    <tr align="center" valign="center"></tr>
+    <td> <a  href="zga.jpg" target="_blank"><img align="left" width="150" height="150" src="zga.jpg" alt="Здание главного Адмиралтейства"></a> </td>
+    <td> <a  href="petropavlov.jpg" target="_blank"><img align="left" width="150" height="150" src="petropavlov.jpg" alt="Петропавловская крепость"></a> </td>
+    <td> <a  href="lev.jpg" target="_blank"><img align="left" width="150" height="150" src="lev.jpg" alt="Львы Санкт-Петербурга"></a> </td>
+    </tr>
+    </table>
+
+    <form method="get">
+    <h3> Анкета пользователя</h3>
+    <table>
+    <tr>
+    <td> Логин: </td>
+    <td> <input type="text" name="login" size="30"></td>
+    <td> Пароль: </td>
+    <td> <input type="password" name="password" size="10"></td></tr>
+    <tr>
+    <td> Город: </td>
+    <td> <select>
+    <option value="a"> Москва
+    <option selected=2 value="b"> Санкт-Петербург
+    <option value="с"> Казань
+    <option value="d"> Мурманск
+    <option value="e"> Другой...
+    </select> </td></tr>
+    <tr>
+    <td> Почта: </td>
+    <td> <input type="email" name="mail" size="30"></td>
+    </tr>
+    </table>
+    <h4> Укажите свою возрастную группу </h4>
+    <input type="radio" name="age" value="child"> 7-12 лет
+    <input type="radio" name="age" value="junior" checked> 13-20 лет
+    <input type="radio" name="age" value="adult"> от 20 лет
+    <h4> Укажите свои увлечения </h4>
+    <input type="checkbox" name="hobby" value="computers"> Компьютеры
+    <input type="checkbox" name="hobby" value="art"> Литература
+    <input type="checkbox" name="hobby" value="music"> Музыка
+    <input type="checkbox" name="hobby" value="avto"> Автомобили
+    <input type="checkbox" name="hobby" value="sport"> Спорт
+    <br>
+    <input type="submit" value="Отправить">
+    <input type="reset" value="Очистить">
+    </form>
+
 
 </body>
 </html>
