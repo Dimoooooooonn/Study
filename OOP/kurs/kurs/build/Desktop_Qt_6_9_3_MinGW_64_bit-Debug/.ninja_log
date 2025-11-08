@@ -1,0 +1,17 @@
+# ninja log v6
+7	943	7842037289080576	kirsik_autogen/timestamp	e1a83543b9480400
+7	943	7842037289080576	kirsik_autogen/mocs_compilation.cpp	e1a83543b9480400
+7	943	7842037289080576	C:/Programs/Programs/Study/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/kirsik_autogen/timestamp	e1a83543b9480400
+7	943	7842037289080576	C:/Programs/Programs/Study/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/kirsik_autogen/mocs_compilation.cpp	e1a83543b9480400
+958	1435	7842037289805327	CMakeFiles/kirsik.dir/arr.cpp.obj	f3ed9eb9e97b57f3
+965	1438	7842037289875503	CMakeFiles/kirsik.dir/tv.cpp.obj	d20a4c2517685cf
+963	3251	7842037289855451	CMakeFiles/kirsik.dir/database.cpp.obj	f1b834ad752cb01c
+950	3829	7842037289725108	CMakeFiles/kirsik.dir/main.cpp.obj	8a221533edbd58a0
+947	3965	7842037289695034	CMakeFiles/kirsik.dir/kirsik_autogen/mocs_compilation.cpp.obj	1bf0310b13cb9a82
+972	4255	7842037289945684	CMakeFiles/kirsik.dir/open.cpp.obj	35f2d208ecc083b9
+960	4285	7842037289825373	CMakeFiles/kirsik.dir/create.cpp.obj	ffa457c94aaf62fc
+968	4358	7842037289905580	CMakeFiles/kirsik.dir/edit.cpp.obj	d47dd90ac29cc56f
+955	4370	7842037289775250	CMakeFiles/kirsik.dir/add.cpp.obj	8db454fe667ca99f
+976	4371	7842037289985791	CMakeFiles/kirsik.dir/unite.cpp.obj	41700fd99845d36c
+953	4422	7842037289745171	CMakeFiles/kirsik.dir/mainwindow.cpp.obj	4b814a90731a5b73
+4422	4785	7842037324445897	kirsik.exe	2bf62a45d9c74781
