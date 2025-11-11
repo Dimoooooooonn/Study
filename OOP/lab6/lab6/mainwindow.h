@@ -19,6 +19,8 @@ private slots:
     void onSubClicked();
     void onMulClicked();
     void onDivClicked();
+    void onClearOperand1();
+    void onClearOperand2();
     void onClearClicked();
     void onExitClicked();
     void onAboutClicked();

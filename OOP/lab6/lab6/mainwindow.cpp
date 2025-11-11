@@ -19,6 +19,8 @@ MainWindow::MainWindow(QWidget *parent)
 
     // Подключение кнопки очистки
     connect(ui->buttonClear, &QPushButton::clicked, this, &MainWindow::onClearClicked);
+    connect(ui->pushButton_ClearOperand1, &QPushButton::clicked, this, &MainWindow::onClearOperand1);
+    connect(ui->pushButton_ClearOperand2, &QPushButton::clicked, this, &MainWindow::onClearOperand2);
 
     // Подключение действий меню
     connect(ui->actionExit, &QAction::triggered, this, &MainWindow::onExitClicked);
@@ -70,6 +72,16 @@ void MainWindow::onMulClicked() {
 
 void MainWindow::onDivClicked() {
     calculate('/');
+}
+
+void MainWindow::onClearOperand1(){
+    ui->lineEditOperand1->clear();
+    ui->lineEditResult->clear();
+}
+
+void MainWindow::onClearOperand2(){
+    ui->lineEditOperand2->clear();
+    ui->lineEditResult->clear();
 }
 
 void MainWindow::onClearClicked() {
