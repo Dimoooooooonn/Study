@@ -17,7 +17,7 @@ void DataBase::connectToDataBase(QString DataBaseName)
      * В зависимости от результата производим открытие базы данных или её восстановление
      * */
 
-    QString fileName = "G:/study/works/OOP/kurs/kurs/db/";
+    QString fileName = "C:/Programs/Programs/Study/OOP/kurs/kurs/db/";
     fileName += DataBaseName;
     if(!QFile(fileName).exists()){
         this->restoreDataBase(DataBaseName);
@@ -30,11 +30,11 @@ void DataBase::connectToDataBase(QString DataBaseName)
  * */
 bool DataBase::restoreDataBase(QString DataBaseName)
 {
-    QString fileName = "G:/study/works/OOP/kurs/kurs/db/";
+    QString fileName = "C:/Programs/Programs/Study/OOP/kurs/kurs/db/";
     fileName += DataBaseName;
     dbName = DataBaseName;
 
-    QDir dir("G:/study/works/OOP/kurs/kurs/db");
+    QDir dir("C:/Programs/Programs/Study/OOP/kurs/kurs/db/");
     if (!dir.exists()) {
         if (!dir.mkpath(".")) {
             qDebug() << "Ошибка: не удалось создать каталог базы данных!";
@@ -60,7 +60,7 @@ bool DataBase::restoreDataBase(QString DataBaseName)
 
 bool DataBase::openDataBase(QString DataBaseName)
 {
-    QString fileName = "G:/study/works/OOP/kurs/kurs/db/";
+    QString fileName = "C:/Programs/Programs/Study/OOP/kurs/kurs/db/";
     fileName += DataBaseName;
     dbName = DataBaseName;
 
@@ -128,7 +128,7 @@ bool DataBase::createDeviceTable()
  * */
 bool DataBase::inserIntoDeviceTable(const QVariantList &data)
 {
-    QString fileName = "G:/study/works/OOP/kurs/kurs/db/";
+    QString fileName = "C:/Programs/Programs/Study/OOP/kurs/kurs/db/";
     fileName += dbName;
 
     QFile dbFile(fileName);
