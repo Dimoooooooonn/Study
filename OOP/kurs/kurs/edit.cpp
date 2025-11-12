@@ -80,7 +80,7 @@ void EditDialogWindow::EditButtonExec()
     int selectedRow = mainWindow->ui->tableWidget->selectionModel()->selectedRows().at(0).row();
     QString number = mainWindow->ui->tableWidget->item(selectedRow, 3)->text();
 
-    QString fileName = "/afs/dcti.sut.ru/homes/students/ikpi31/ikpi31n13/example/";
+    QString fileName = "G:/study/works/OOP/kurs/kurs/db/";
     fileName += *mainWindow->currentDatabaseName + ".txt";
 
     QFile dbFile(fileName);

@@ -1,19 +1,19 @@
 {
 	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
-	"BUILD_DIR" : "C:/Programs/Programs/Study/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/kirsik_autogen",
-	"CMAKE_BINARY_DIR" : "C:/Programs/Programs/Study/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "C:/Programs/Programs/Study/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug",
-	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Programs/Programs/Study/OOP/kurs/kurs",
+	"BUILD_DIR" : "G:/study/Works/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/kirsik_autogen",
+	"CMAKE_BINARY_DIR" : "G:/study/Works/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "G:/study/Works/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "G:/study/Works/OOP/kurs/kurs",
 	"CMAKE_EXECUTABLE" : "C:/Qt/Tools/CMake_64/bin/cmake.exe",
 	"CMAKE_LIST_FILES" : 
 	[
-		"C:/Programs/Programs/Study/OOP/kurs/kurs/CMakeLists.txt",
-		"C:/Programs/Programs/Study/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake",
+		"G:/study/Works/OOP/kurs/kurs/CMakeLists.txt",
+		"G:/study/Works/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeSystem.cmake.in",
-		"C:/Programs/Programs/Study/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake",
+		"G:/study/Works/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeNinjaFindMake.cmake",
-		"C:/Programs/Programs/Study/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake",
+		"G:/study/Works/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake",
@@ -66,7 +66,7 @@
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/GNU-FindBinUtils.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCXXCompiler.cmake.in",
-		"C:/Programs/Programs/Study/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake",
+		"G:/study/Works/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake",
@@ -81,7 +81,7 @@
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineRCCompiler.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeRCCompiler.cmake.in",
-		"C:/Programs/Programs/Study/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake",
+		"G:/study/Works/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeRCInformation.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestRCCompiler.cmake",
@@ -98,7 +98,7 @@
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerSupport.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCXXCompiler.cmake.in",
-		"C:/Programs/Programs/Study/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake",
+		"G:/study/Works/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake",
 		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
 		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
@@ -408,70 +408,70 @@
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
 		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6/Qt6Dependencies.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "C:/Programs/Programs/Study/OOP/kurs/kurs",
+	"CMAKE_SOURCE_DIR" : "G:/study/Works/OOP/kurs/kurs",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "C:/Programs/Programs/Study/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/kirsik_autogen/deps",
+	"DEP_FILE" : "G:/study/Works/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/kirsik_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "kirsik_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
-			"C:/Programs/Programs/Study/OOP/kurs/kurs/add.h",
+			"G:/study/Works/OOP/kurs/kurs/add.h",
 			"MU",
 			"EWIEGA46WW/moc_add.cpp",
 			null
 		],
 		[
-			"C:/Programs/Programs/Study/OOP/kurs/kurs/arr.h",
+			"G:/study/Works/OOP/kurs/kurs/arr.h",
 			"MU",
 			"EWIEGA46WW/moc_arr.cpp",
 			null
 		],
 		[
-			"C:/Programs/Programs/Study/OOP/kurs/kurs/create.h",
+			"G:/study/Works/OOP/kurs/kurs/create.h",
 			"MU",
 			"EWIEGA46WW/moc_create.cpp",
 			null
 		],
 		[
-			"C:/Programs/Programs/Study/OOP/kurs/kurs/database.h",
+			"G:/study/Works/OOP/kurs/kurs/database.h",
 			"MU",
 			"EWIEGA46WW/moc_database.cpp",
 			null
 		],
 		[
-			"C:/Programs/Programs/Study/OOP/kurs/kurs/edit.h",
+			"G:/study/Works/OOP/kurs/kurs/edit.h",
 			"MU",
 			"EWIEGA46WW/moc_edit.cpp",
 			null
 		],
 		[
-			"C:/Programs/Programs/Study/OOP/kurs/kurs/mainwindow.h",
+			"G:/study/Works/OOP/kurs/kurs/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
 			null
 		],
 		[
-			"C:/Programs/Programs/Study/OOP/kurs/kurs/open.h",
+			"G:/study/Works/OOP/kurs/kurs/open.h",
 			"MU",
 			"EWIEGA46WW/moc_open.cpp",
 			null
 		],
 		[
-			"C:/Programs/Programs/Study/OOP/kurs/kurs/tv.h",
+			"G:/study/Works/OOP/kurs/kurs/tv.h",
 			"MU",
 			"EWIEGA46WW/moc_tv.cpp",
 			null
 		],
 		[
-			"C:/Programs/Programs/Study/OOP/kurs/kurs/unite.h",
+			"G:/study/Works/OOP/kurs/kurs/unite.h",
 			"MU",
 			"EWIEGA46WW/moc_unite.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "C:/Programs/Programs/Study/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/kirsik_autogen/include",
-	"MOC_COMPILATION_FILE" : "C:/Programs/Programs/Study/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/kirsik_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "G:/study/Works/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/kirsik_autogen/include",
+	"MOC_COMPILATION_FILE" : "G:/study/Works/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/kirsik_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"MINGW_HAS_SECURE_API=1",
@@ -527,29 +527,29 @@
 		"-c",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "C:/Programs/Programs/Study/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/kirsik_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "G:/study/Works/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/kirsik_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
-	"PARALLEL" : 6,
-	"PARSE_CACHE_FILE" : "C:/Programs/Programs/Study/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CMakeFiles/kirsik_autogen.dir/ParseCache.txt",
+	"PARALLEL" : 16,
+	"PARSE_CACHE_FILE" : "G:/study/Works/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CMakeFiles/kirsik_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "C:/Qt/6.9.3/mingw_64/bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "C:/Qt/6.9.3/mingw_64/bin/uic.exe",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 9,
-	"SETTINGS_FILE" : "C:/Programs/Programs/Study/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CMakeFiles/kirsik_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "G:/study/Works/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CMakeFiles/kirsik_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "C:/Programs/Programs/Study/OOP/kurs/kurs/add.cpp", "MU", null ],
-		[ "C:/Programs/Programs/Study/OOP/kurs/kurs/arr.cpp", "MU", null ],
-		[ "C:/Programs/Programs/Study/OOP/kurs/kurs/create.cpp", "MU", null ],
-		[ "C:/Programs/Programs/Study/OOP/kurs/kurs/database.cpp", "MU", null ],
-		[ "C:/Programs/Programs/Study/OOP/kurs/kurs/edit.cpp", "MU", null ],
-		[ "C:/Programs/Programs/Study/OOP/kurs/kurs/main.cpp", "MU", null ],
-		[ "C:/Programs/Programs/Study/OOP/kurs/kurs/mainwindow.cpp", "MU", null ],
-		[ "C:/Programs/Programs/Study/OOP/kurs/kurs/open.cpp", "MU", null ],
-		[ "C:/Programs/Programs/Study/OOP/kurs/kurs/tv.cpp", "MU", null ],
-		[ "C:/Programs/Programs/Study/OOP/kurs/kurs/unite.cpp", "MU", null ]
+		[ "G:/study/Works/OOP/kurs/kurs/add.cpp", "MU", null ],
+		[ "G:/study/Works/OOP/kurs/kurs/arr.cpp", "MU", null ],
+		[ "G:/study/Works/OOP/kurs/kurs/create.cpp", "MU", null ],
+		[ "G:/study/Works/OOP/kurs/kurs/database.cpp", "MU", null ],
+		[ "G:/study/Works/OOP/kurs/kurs/edit.cpp", "MU", null ],
+		[ "G:/study/Works/OOP/kurs/kurs/main.cpp", "MU", null ],
+		[ "G:/study/Works/OOP/kurs/kurs/mainwindow.cpp", "MU", null ],
+		[ "G:/study/Works/OOP/kurs/kurs/open.cpp", "MU", null ],
+		[ "G:/study/Works/OOP/kurs/kurs/tv.cpp", "MU", null ],
+		[ "G:/study/Works/OOP/kurs/kurs/unite.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

@@ -176,7 +176,7 @@ void Array<T, Alloc>::DeleteElem(int index, int size)
             std::allocator_traits<Alloc>::construct(*this, newArr + ptr, std::move(arr[i]));
             ++ptr;
         }
-}
+    }
 
     this->size = this->size - size;
 

@@ -1,4 +1,5 @@
 #include "database.h"
+#include <QDir>
 
 DataBase::DataBase(QObject *parent) : QObject(parent)
 {
@@ -16,7 +17,7 @@ void DataBase::connectToDataBase(QString DataBaseName)
      * В зависимости от результата производим открытие базы данных или её восстановление
      * */
 
-    QString fileName = "/afs/dcti.sut.ru/homes/students/ikpi31/ikpi31n13/example/";
+    QString fileName = "G:/study/works/OOP/kurs/kurs/db/";
     fileName += DataBaseName;
     if(!QFile(fileName).exists()){
         this->restoreDataBase(DataBaseName);
@@ -29,22 +30,37 @@ void DataBase::connectToDataBase(QString DataBaseName)
  * */
 bool DataBase::restoreDataBase(QString DataBaseName)
 {
-    QString fileName = "/afs/dcti.sut.ru/homes/students/ikpi31/ikpi31n13/example/";
+    QString fileName = "G:/study/works/OOP/kurs/kurs/db/";
     fileName += DataBaseName;
     dbName = DataBaseName;
 
+    QDir dir("G:/study/works/OOP/kurs/kurs/db");
+    if (!dir.exists()) {
+        if (!dir.mkpath(".")) {
+            qDebug() << "Ошибка: не удалось создать каталог базы данных!";
+            return false;
+        }
+    }
+
     QFile dbFile(fileName);
-    dbFile.open(QIODevice::ReadWrite);
+    if (!dbFile.open(QIODevice::WriteOnly | QIODevice::Truncate)) {
+        qDebug() << "Ошибка: не удалось открыть файл для записи:" << fileName
+                 << " (" << dbFile.errorString() << ")";
+        return false;
+    }
 
     QTextStream edit(&dbFile);
     edit << '~';
-
     dbFile.close();
+
+    qDebug() << "База данных создана:" << fileName;
+    return true; // ← ОБЯЗАТЕЛЬНО!
 }
+
 
 bool DataBase::openDataBase(QString DataBaseName)
 {
-    QString fileName = "/afs/dcti.sut.ru/homes/students/ikpi31/ikpi31n13/example/";
+    QString fileName = "G:/study/works/OOP/kurs/kurs/db/";
     fileName += DataBaseName;
     dbName = DataBaseName;
 
@@ -112,7 +128,7 @@ bool DataBase::createDeviceTable()
  * */
 bool DataBase::inserIntoDeviceTable(const QVariantList &data)
 {
-    QString fileName = "/afs/dcti.sut.ru/homes/students/ikpi31/ikpi31n13/example/";
+    QString fileName = "G:/study/works/OOP/kurs/kurs/db/";
     fileName += dbName;
 
     QFile dbFile(fileName);

@@ -82,9 +82,9 @@ void MainWindow::on_actionAbout_triggered()
 {
     QMessageBox::information(this, "О программе",
                              "Выполнил:\n"
-                             "Студент второго курса\n"
-                             "Группы ИКПИ-31\n"
-                             "Федосов Артем Андреевич",
+                             "Студент третьего курса\n"
+                             "Группы ИКПИ-32\n"
+                             "Филимонов Дмитрий Евгеньевич",
                              QMessageBox::Ok);
 }
 
@@ -102,7 +102,7 @@ void MainWindow::on_actionRemove_triggered()
     int selectedRow = ui->tableWidget->selectionModel()->selectedRows().at(0).row();
     QString number = ui->tableWidget->item(selectedRow, 3)->text();
 
-    QString fileName = "/afs/dcti.sut.ru/homes/students/ikpi31/ikpi31n13/example/";
+    QString fileName = "G:/study/works/OOP/kurs/kurs/db/";
     fileName += *currentDatabaseName + ".txt";
 
     QFile dbFile(fileName);

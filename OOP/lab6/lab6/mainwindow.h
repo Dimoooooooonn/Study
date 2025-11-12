@@ -22,6 +22,11 @@ private slots:
     void onClearOperand1();
     void onClearOperand2();
     void onClearClicked();
+    void Swap();
+    void SwapOp(QString op1, QString op2);
+    void Copy(QString op, short name);
+    void Copy1();
+    void Copy2();
     void onExitClicked();
     void onAboutClicked();
 

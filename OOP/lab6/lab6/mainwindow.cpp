@@ -22,6 +22,10 @@ MainWindow::MainWindow(QWidget *parent)
     connect(ui->pushButton_ClearOperand1, &QPushButton::clicked, this, &MainWindow::onClearOperand1);
     connect(ui->pushButton_ClearOperand2, &QPushButton::clicked, this, &MainWindow::onClearOperand2);
 
+    connect(ui->ButtonSwap, &QPushButton::clicked, this, &MainWindow::Swap);
+    connect(ui->ButtonCopy1, &QPushButton::clicked, this, &MainWindow::Copy1);
+    connect(ui->ButtonCopy2, &QPushButton::clicked, this, &MainWindow::Copy2);
+
     // Подключение действий меню
     connect(ui->actionExit, &QAction::triggered, this, &MainWindow::onExitClicked);
     connect(ui->actionAbout, &QAction::triggered, this, &MainWindow::onAboutClicked);
@@ -58,6 +62,25 @@ void MainWindow::calculate(char op) {
     ui->lineEditResult->setText(QString::number(result));
 }
 
+void MainWindow::SwapOp(QString op1, QString op2){
+    QString temp = op1;
+    ui->lineEditOperand1->setText(op2);
+    ui->lineEditOperand2->setText(temp);
+}
+
+void MainWindow::Copy(QString op, short name){
+    switch (name) {
+    case 1:
+        ui->lineEditOperand2->setText(op);
+        break;
+    case 2:
+        ui->lineEditOperand1->setText(op);
+        break;
+    default:
+        break;
+    }
+}
+
 void MainWindow::onAddClicked() {
     calculate('+');
 }
@@ -88,6 +111,24 @@ void MainWindow::onClearClicked() {
     ui->lineEditOperand1->clear();
     ui->lineEditOperand2->clear();
     ui->lineEditResult->clear();
+}
+
+void MainWindow::Swap(){
+    QString op1 = ui->lineEditOperand1->text();
+    QString op2 = ui->lineEditOperand2->text();
+    SwapOp(op1, op2);
+}
+
+void MainWindow::Copy1(){
+    QString op = ui->lineEditOperand1->text();
+    short name = 1;
+    Copy(op, name);
+}
+
+void MainWindow::Copy2(){
+    QString op = ui->lineEditOperand2->text();
+    short name = 2;
+    Copy(op, name);
 }
 
 void MainWindow::onExitClicked() {

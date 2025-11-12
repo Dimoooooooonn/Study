@@ -43,7 +43,6 @@ public:
     QTableWidget *tableWidget;
     QLineEdit *lineEdit;
     QLabel *sost;
-    QToolButton *toolButton_Exit;
     QWidget *verticalLayoutWidget;
     QVBoxLayout *verticalLayout;
     QToolButton *toolButton_Edit;
@@ -63,7 +62,7 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
-        MainWindow->resize(500, 400);
+        MainWindow->resize(522, 400);
         MainWindow->setMinimumSize(QSize(500, 400));
         actionCreate = new QAction(MainWindow);
         actionCreate->setObjectName("actionCreate");
@@ -85,128 +84,74 @@ public:
         centralwidget->setObjectName("centralwidget");
         label = new QLabel(centralwidget);
         label->setObjectName("label");
-        label->setGeometry(QRect(80, 20, 66, 18));
+        label->setGeometry(QRect(10, 0, 66, 18));
         tableWidget = new QTableWidget(centralwidget);
         tableWidget->setObjectName("tableWidget");
-        tableWidget->setGeometry(QRect(0, 70, 451, 191));
+        tableWidget->setGeometry(QRect(10, 30, 451, 291));
         lineEdit = new QLineEdit(centralwidget);
         lineEdit->setObjectName("lineEdit");
-        lineEdit->setGeometry(QRect(160, 20, 241, 26));
+        lineEdit->setGeometry(QRect(50, 0, 241, 26));
         sost = new QLabel(centralwidget);
         sost->setObjectName("sost");
-        sost->setGeometry(QRect(10, 280, 221, 18));
-        toolButton_Exit = new QToolButton(centralwidget);
-        toolButton_Exit->setObjectName("toolButton_Exit");
-        toolButton_Exit->setGeometry(QRect(0, 0, 40, 39));
-        QIcon icon;
-        QString iconThemeName = QString::fromUtf8("printer-error");
-        if (QIcon::hasThemeIcon(iconThemeName)) {
-            icon = QIcon::fromTheme(iconThemeName);
-        } else {
-            icon.addFile(QString::fromUtf8("."), QSize(), QIcon::Mode::Normal, QIcon::State::Off);
-        }
-        toolButton_Exit->setIcon(icon);
-        toolButton_Exit->setIconSize(QSize(32, 32));
+        sost->setGeometry(QRect(10, 330, 221, 18));
         verticalLayoutWidget = new QWidget(centralwidget);
         verticalLayoutWidget->setObjectName("verticalLayoutWidget");
-        verticalLayoutWidget->setGeometry(QRect(460, 10, 41, 311));
+        verticalLayoutWidget->setGeometry(QRect(470, 30, 42, 311));
         verticalLayout = new QVBoxLayout(verticalLayoutWidget);
         verticalLayout->setObjectName("verticalLayout");
         verticalLayout->setContentsMargins(0, 0, 0, 0);
         toolButton_Edit = new QToolButton(verticalLayoutWidget);
         toolButton_Edit->setObjectName("toolButton_Edit");
-        QIcon icon1;
-        iconThemeName = QString::fromUtf8("accessories-text-editor");
-        if (QIcon::hasThemeIcon(iconThemeName)) {
-            icon1 = QIcon::fromTheme(iconThemeName);
-        } else {
-            icon1.addFile(QString::fromUtf8("."), QSize(), QIcon::Mode::Normal, QIcon::State::Off);
-        }
-        toolButton_Edit->setIcon(icon1);
+        QIcon icon(QIcon::fromTheme(QIcon::ThemeIcon::MailMessageNew));
+        toolButton_Edit->setIcon(icon);
         toolButton_Edit->setIconSize(QSize(32, 32));
 
         verticalLayout->addWidget(toolButton_Edit);
 
         toolButton_Open = new QToolButton(verticalLayoutWidget);
         toolButton_Open->setObjectName("toolButton_Open");
-        QIcon icon2;
-        iconThemeName = QString::fromUtf8("document-open");
-        if (QIcon::hasThemeIcon(iconThemeName)) {
-            icon2 = QIcon::fromTheme(iconThemeName);
-        } else {
-            icon2.addFile(QString::fromUtf8("."), QSize(), QIcon::Mode::Normal, QIcon::State::Off);
-        }
-        toolButton_Open->setIcon(icon2);
+        QIcon icon1(QIcon::fromTheme(QString::fromUtf8("document-open")));
+        toolButton_Open->setIcon(icon1);
         toolButton_Open->setIconSize(QSize(32, 32));
 
         verticalLayout->addWidget(toolButton_Open);
 
         toolButton_About = new QToolButton(verticalLayoutWidget);
         toolButton_About->setObjectName("toolButton_About");
-        QIcon icon3;
-        iconThemeName = QString::fromUtf8("dialog-information");
-        if (QIcon::hasThemeIcon(iconThemeName)) {
-            icon3 = QIcon::fromTheme(iconThemeName);
-        } else {
-            icon3.addFile(QString::fromUtf8("."), QSize(), QIcon::Mode::Normal, QIcon::State::Off);
-        }
-        toolButton_About->setIcon(icon3);
+        QIcon icon2(QIcon::fromTheme(QString::fromUtf8("dialog-information")));
+        toolButton_About->setIcon(icon2);
         toolButton_About->setIconSize(QSize(32, 32));
 
         verticalLayout->addWidget(toolButton_About);
 
         toolButton_Cut = new QToolButton(verticalLayoutWidget);
         toolButton_Cut->setObjectName("toolButton_Cut");
-        QIcon icon4;
-        iconThemeName = QString::fromUtf8("edit-cut");
-        if (QIcon::hasThemeIcon(iconThemeName)) {
-            icon4 = QIcon::fromTheme(iconThemeName);
-        } else {
-            icon4.addFile(QString::fromUtf8("."), QSize(), QIcon::Mode::Normal, QIcon::State::Off);
-        }
-        toolButton_Cut->setIcon(icon4);
+        QIcon icon3(QIcon::fromTheme(QString::fromUtf8("edit-cut")));
+        toolButton_Cut->setIcon(icon3);
         toolButton_Cut->setIconSize(QSize(32, 32));
 
         verticalLayout->addWidget(toolButton_Cut);
 
         toolButton_Add = new QToolButton(verticalLayoutWidget);
         toolButton_Add->setObjectName("toolButton_Add");
-        QIcon icon5;
-        iconThemeName = QString::fromUtf8("document-new");
-        if (QIcon::hasThemeIcon(iconThemeName)) {
-            icon5 = QIcon::fromTheme(iconThemeName);
-        } else {
-            icon5.addFile(QString::fromUtf8("."), QSize(), QIcon::Mode::Normal, QIcon::State::Off);
-        }
-        toolButton_Add->setIcon(icon5);
+        QIcon icon4(QIcon::fromTheme(QString::fromUtf8("document-new")));
+        toolButton_Add->setIcon(icon4);
         toolButton_Add->setIconSize(QSize(32, 32));
 
         verticalLayout->addWidget(toolButton_Add);
 
         toolButton_New = new QToolButton(verticalLayoutWidget);
         toolButton_New->setObjectName("toolButton_New");
-        QIcon icon6;
-        iconThemeName = QString::fromUtf8("appointment-new");
-        if (QIcon::hasThemeIcon(iconThemeName)) {
-            icon6 = QIcon::fromTheme(iconThemeName);
-        } else {
-            icon6.addFile(QString::fromUtf8("."), QSize(), QIcon::Mode::Normal, QIcon::State::Off);
-        }
-        toolButton_New->setIcon(icon6);
+        QIcon icon5(QIcon::fromTheme(QString::fromUtf8("appointment-new")));
+        toolButton_New->setIcon(icon5);
         toolButton_New->setIconSize(QSize(32, 32));
 
         verticalLayout->addWidget(toolButton_New);
 
         toolButton_Unite = new QToolButton(verticalLayoutWidget);
         toolButton_Unite->setObjectName("toolButton_Unite");
-        QIcon icon7;
-        iconThemeName = QString::fromUtf8("edit-select-all");
-        if (QIcon::hasThemeIcon(iconThemeName)) {
-            icon7 = QIcon::fromTheme(iconThemeName);
-        } else {
-            icon7.addFile(QString::fromUtf8("."), QSize(), QIcon::Mode::Normal, QIcon::State::Off);
-        }
-        toolButton_Unite->setIcon(icon7);
+        QIcon icon6(QIcon::fromTheme(QString::fromUtf8("edit-select-all")));
+        toolButton_Unite->setIcon(icon6);
         toolButton_Unite->setIconSize(QSize(32, 32));
 
         verticalLayout->addWidget(toolButton_Unite);
@@ -214,7 +159,7 @@ public:
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 500, 23));
+        menubar->setGeometry(QRect(0, 0, 522, 21));
         menuggggg = new QMenu(menubar);
         menuggggg->setObjectName("menuggggg");
         menuwerwewe = new QMenu(menubar);
@@ -256,8 +201,7 @@ public:
         actionEdit->setText(QCoreApplication::translate("MainWindow", "\320\240\320\265\320\264\320\260\320\272\321\202\320\270\321\200\320\276\320\262\320\260\321\202\321\214", nullptr));
         label->setText(QCoreApplication::translate("MainWindow", "Search", nullptr));
         sost->setText(QString());
-        toolButton_Exit->setText(QCoreApplication::translate("MainWindow", "...", nullptr));
-        toolButton_Edit->setText(QCoreApplication::translate("MainWindow", "...", nullptr));
+        toolButton_Edit->setText(QString());
         toolButton_Open->setText(QCoreApplication::translate("MainWindow", "...", nullptr));
         toolButton_About->setText(QCoreApplication::translate("MainWindow", "...", nullptr));
         toolButton_Cut->setText(QCoreApplication::translate("MainWindow", "...", nullptr));
