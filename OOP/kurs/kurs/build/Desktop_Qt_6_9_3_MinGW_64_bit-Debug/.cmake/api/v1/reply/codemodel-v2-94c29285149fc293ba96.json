@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "kirsik::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-kirsik-Debug-b5f54054f5a4741d484f.json",
+					"jsonFile" : "target-kirsik-Debug-00d1f263b8ce786b56d3.json",
 					"name" : "kirsik",
 					"projectIndex" : 0
 				},
@@ -68,8 +68,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "G:/study/Works/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug",
-		"source" : "G:/study/Works/OOP/kurs/kurs"
+		"build" : "C:/Programs/Programs/Study/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug",
+		"source" : "C:/Programs/Programs/Study/OOP/kurs/kurs"
 	},
 	"version" : 
 	{

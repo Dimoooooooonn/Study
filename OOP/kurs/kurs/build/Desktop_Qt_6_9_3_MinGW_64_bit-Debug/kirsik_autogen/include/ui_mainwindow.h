@@ -90,13 +90,13 @@ public:
         tableWidget->setGeometry(QRect(10, 30, 451, 291));
         lineEdit = new QLineEdit(centralwidget);
         lineEdit->setObjectName("lineEdit");
-        lineEdit->setGeometry(QRect(50, 0, 241, 26));
+        lineEdit->setGeometry(QRect(60, 0, 241, 26));
         sost = new QLabel(centralwidget);
         sost->setObjectName("sost");
         sost->setGeometry(QRect(10, 330, 221, 18));
         verticalLayoutWidget = new QWidget(centralwidget);
         verticalLayoutWidget->setObjectName("verticalLayoutWidget");
-        verticalLayoutWidget->setGeometry(QRect(470, 30, 42, 311));
+        verticalLayoutWidget->setGeometry(QRect(470, 30, 42, 317));
         verticalLayout = new QVBoxLayout(verticalLayoutWidget);
         verticalLayout->setObjectName("verticalLayout");
         verticalLayout->setContentsMargins(0, 0, 0, 0);
@@ -134,7 +134,7 @@ public:
 
         toolButton_Add = new QToolButton(verticalLayoutWidget);
         toolButton_Add->setObjectName("toolButton_Add");
-        QIcon icon4(QIcon::fromTheme(QString::fromUtf8("document-new")));
+        QIcon icon4(QIcon::fromTheme(QIcon::ThemeIcon::ListAdd));
         toolButton_Add->setIcon(icon4);
         toolButton_Add->setIconSize(QSize(32, 32));
 
@@ -142,7 +142,7 @@ public:
 
         toolButton_New = new QToolButton(verticalLayoutWidget);
         toolButton_New->setObjectName("toolButton_New");
-        QIcon icon5(QIcon::fromTheme(QString::fromUtf8("appointment-new")));
+        QIcon icon5(QIcon::fromTheme(QIcon::ThemeIcon::FolderNew));
         toolButton_New->setIcon(icon5);
         toolButton_New->setIconSize(QSize(32, 32));
 
@@ -150,7 +150,7 @@ public:
 
         toolButton_Unite = new QToolButton(verticalLayoutWidget);
         toolButton_Unite->setObjectName("toolButton_Unite");
-        QIcon icon6(QIcon::fromTheme(QString::fromUtf8("edit-select-all")));
+        QIcon icon6(QIcon::fromTheme(QIcon::ThemeIcon::MediaPlaylistRepeat));
         toolButton_Unite->setIcon(icon6);
         toolButton_Unite->setIconSize(QSize(32, 32));
 
@@ -159,7 +159,7 @@ public:
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 522, 21));
+        menubar->setGeometry(QRect(0, 0, 522, 25));
         menuggggg = new QMenu(menubar);
         menuggggg->setObjectName("menuggggg");
         menuwerwewe = new QMenu(menubar);

@@ -336,7 +336,7 @@
 			[
 				{
 					"backtrace" : 0,
-					"path" : "G:/study/Works/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/kirsik_autogen/include"
+					"path" : "C:/Programs/Programs/Study/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/kirsik_autogen/include"
 				},
 				{
 					"backtrace" : 13,
@@ -393,11 +393,11 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 0,
-			"id" : "kirsik_autogen::@6890427a1f51a3e7e1df"
+			"id" : "kirsik_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "kirsik_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+			"backtrace" : 0,
+			"id" : "kirsik_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "kirsik::@6890427a1f51a3e7e1df",

@@ -1,4 +1,30 @@
 kirsik_autogen/timestamp: \
+	C:/Programs/Programs/Study/OOP/kurs/kurs/CMakeLists.txt \
+	C:/Programs/Programs/Study/OOP/kurs/kurs/add.cpp \
+	C:/Programs/Programs/Study/OOP/kurs/kurs/add.h \
+	C:/Programs/Programs/Study/OOP/kurs/kurs/arr.cpp \
+	C:/Programs/Programs/Study/OOP/kurs/kurs/arr.h \
+	C:/Programs/Programs/Study/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake \
+	C:/Programs/Programs/Study/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake \
+	C:/Programs/Programs/Study/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake \
+	C:/Programs/Programs/Study/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake \
+	C:/Programs/Programs/Study/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake \
+	C:/Programs/Programs/Study/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/kirsik_autogen/moc_predefs.h \
+	C:/Programs/Programs/Study/OOP/kurs/kurs/create.cpp \
+	C:/Programs/Programs/Study/OOP/kurs/kurs/create.h \
+	C:/Programs/Programs/Study/OOP/kurs/kurs/database.cpp \
+	C:/Programs/Programs/Study/OOP/kurs/kurs/database.h \
+	C:/Programs/Programs/Study/OOP/kurs/kurs/edit.cpp \
+	C:/Programs/Programs/Study/OOP/kurs/kurs/edit.h \
+	C:/Programs/Programs/Study/OOP/kurs/kurs/main.cpp \
+	C:/Programs/Programs/Study/OOP/kurs/kurs/mainwindow.cpp \
+	C:/Programs/Programs/Study/OOP/kurs/kurs/mainwindow.h \
+	C:/Programs/Programs/Study/OOP/kurs/kurs/open.cpp \
+	C:/Programs/Programs/Study/OOP/kurs/kurs/open.h \
+	C:/Programs/Programs/Study/OOP/kurs/kurs/tv.cpp \
+	C:/Programs/Programs/Study/OOP/kurs/kurs/tv.h \
+	C:/Programs/Programs/Study/OOP/kurs/kurs/unite.cpp \
+	C:/Programs/Programs/Study/OOP/kurs/kurs/unite.h \
 	C:/Qt/6.9.3/mingw_64/include/QtCore/QDate \
 	C:/Qt/6.9.3/mingw_64/include/QtCore/QDebug \
 	C:/Qt/6.9.3/mingw_64/include/QtCore/QFile \
@@ -708,31 +734,5 @@ kirsik_autogen/timestamp: \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wctype.h \
-	G:/study/Works/OOP/kurs/kurs/CMakeLists.txt \
-	G:/study/Works/OOP/kurs/kurs/add.cpp \
-	G:/study/Works/OOP/kurs/kurs/add.h \
-	G:/study/Works/OOP/kurs/kurs/arr.cpp \
-	G:/study/Works/OOP/kurs/kurs/arr.h \
-	G:/study/Works/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake \
-	G:/study/Works/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake \
-	G:/study/Works/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake \
-	G:/study/Works/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake \
-	G:/study/Works/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake \
-	G:/study/Works/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/kirsik_autogen/moc_predefs.h \
-	G:/study/Works/OOP/kurs/kurs/create.cpp \
-	G:/study/Works/OOP/kurs/kurs/create.h \
-	G:/study/Works/OOP/kurs/kurs/database.cpp \
-	G:/study/Works/OOP/kurs/kurs/database.h \
-	G:/study/Works/OOP/kurs/kurs/edit.cpp \
-	G:/study/Works/OOP/kurs/kurs/edit.h \
-	G:/study/Works/OOP/kurs/kurs/main.cpp \
-	G:/study/Works/OOP/kurs/kurs/mainwindow.cpp \
-	G:/study/Works/OOP/kurs/kurs/mainwindow.h \
-	G:/study/Works/OOP/kurs/kurs/open.cpp \
-	G:/study/Works/OOP/kurs/kurs/open.h \
-	G:/study/Works/OOP/kurs/kurs/tv.cpp \
-	G:/study/Works/OOP/kurs/kurs/tv.h \
-	G:/study/Works/OOP/kurs/kurs/unite.cpp \
-	G:/study/Works/OOP/kurs/kurs/unite.h \
-	G:/study/Works/OOP/kurs/kurs/mainwindow.ui \
+	C:/Programs/Programs/Study/OOP/kurs/kurs/mainwindow.ui \
 	C:/Qt/Tools/CMake_64/bin/cmake.exe

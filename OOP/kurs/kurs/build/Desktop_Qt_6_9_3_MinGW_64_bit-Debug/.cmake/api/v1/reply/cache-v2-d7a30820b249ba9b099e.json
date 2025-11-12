@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "g:/study/Works/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug"
+			"value" : "c:/Programs/Programs/Study/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -479,7 +479,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "G:/study/Works/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Programs/Programs/Study/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -563,7 +563,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "G:/study/Works/OOP/kurs/kurs"
+			"value" : "C:/Programs/Programs/Study/OOP/kurs/kurs"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -1063,7 +1063,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "G:/study/works/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake"
+			"value" : "C:/Programs/Programs/Study/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake"
 		},
 		{
 			"name" : "CMAKE_PROJECT_NAME",
@@ -6667,7 +6667,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "G:/study/Works/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug"
+			"value" : "C:/Programs/Programs/Study/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug"
 		},
 		{
 			"name" : "kirsik_IS_TOP_LEVEL",
@@ -6691,7 +6691,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "G:/study/Works/OOP/kurs/kurs"
+			"value" : "C:/Programs/Programs/Study/OOP/kurs/kurs"
 		}
 	],
 	"kind" : "cache",
