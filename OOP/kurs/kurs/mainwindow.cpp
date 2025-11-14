@@ -102,7 +102,7 @@ void MainWindow::on_actionRemove_triggered()
     int selectedRow = ui->tableWidget->selectionModel()->selectedRows().at(0).row();
     QString number = ui->tableWidget->item(selectedRow, 3)->text();
 
-    QString fileName = "G:/study/works/OOP/kurs/kurs/db/";
+    QString fileName = "C:/Programs/Programs/Study/OOP/kurs/kurs/db/";
     fileName += *currentDatabaseName + ".txt";
 
     QFile dbFile(fileName);
