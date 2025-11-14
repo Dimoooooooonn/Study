@@ -122,7 +122,7 @@
 						<UnitType><![CDATA[NONE]]></UnitType>
 						<SdArray>false</SdArray>
 						<DefaultValue Class="CodeValue">
-							<Code><![CDATA[0.99]]></Code>
+							<Code><![CDATA[0.8]]></Code>
 						</DefaultValue>
 						<ParameterEditor>
 							<Id>1727850220962</Id>
@@ -358,10 +358,10 @@
 						</RecurrenceCode>
 					</RecurrenceProperties>
 					<Value><![CDATA[]]></Value>
-					<NumberOfIntervals>50</NumberOfIntervals>
-					<MinMaxAutodetect>true</MinMaxAutodetect>
+					<NumberOfIntervals>30</NumberOfIntervals>
+					<MinMaxAutodetect>false</MinMaxAutodetect>
 					<RangeMinExpression><![CDATA[0]]></RangeMinExpression>
-					<RangeMaxExpression><![CDATA[1]]></RangeMaxExpression>
+					<RangeMaxExpression><![CDATA[50]]></RangeMaxExpression>
 					<InitialIntervalSize><![CDATA[0.1]]></InitialIntervalSize>
 					<CalculateCDF>true</CalculateCDF>
 					<CalculatePercentiles>false</CalculatePercentiles>
@@ -687,8 +687,7 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.origTime=time();
-agent.length=exponential( 1 );]]></Code>
+								<Code><![CDATA[agent.origTime=time()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -864,7 +863,7 @@ agent.length=exponential( 1 );]]></Code>
 						<Parameter>
 							<Name><![CDATA[delayTime]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[agent.length]]></Code>
+								<Code><![CDATA[exponential( 1 )]]></Code>
 								<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
 							</Value>
 						</Parameter>
@@ -962,6 +961,9 @@ agent.dTime=time();]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[maximumCapacity]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[true]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[entityLocation]]></Name>
@@ -1069,7 +1071,7 @@ agent.dTime=time();]]></Code>
 						<Parameter>
 							<Name><![CDATA[delayTime]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[agent.length]]></Code>
+								<Code><![CDATA[exponential( 1 )]]></Code>
 								<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
 							</Value>
 						</Parameter>
@@ -1285,7 +1287,7 @@ agent.dTime=time();]]></Code>
 						<ColorHighPercent>-23296</ColorHighPercent>
 						<ColorMean>-13447886</ColorMean>
 						<LineWidth>1</LineWidth>						
-						<Title><![CDATA[Title]]></Title>							
+						<Title><![CDATA[Delivery Time]]></Title>							
 					</HistogramDataExpression>
     			</Histogram>
 			</Presentation>
