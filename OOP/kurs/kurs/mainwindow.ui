@@ -46,7 +46,7 @@
    <widget class="QLineEdit" name="lineEdit">
     <property name="geometry">
      <rect>
-      <x>50</x>
+      <x>60</x>
       <y>0</y>
       <width>241</width>
       <height>26</height>
@@ -72,7 +72,7 @@
       <x>470</x>
       <y>30</y>
       <width>42</width>
-      <height>311</height>
+      <height>317</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout">
@@ -146,7 +146,7 @@
         <string>...</string>
        </property>
        <property name="icon">
-        <iconset theme="document-new"/>
+        <iconset theme="QIcon::ThemeIcon::ListAdd"/>
        </property>
        <property name="iconSize">
         <size>
@@ -162,7 +162,7 @@
         <string>...</string>
        </property>
        <property name="icon">
-        <iconset theme="appointment-new"/>
+        <iconset theme="QIcon::ThemeIcon::FolderNew"/>
        </property>
        <property name="iconSize">
         <size>
@@ -178,7 +178,7 @@
         <string>...</string>
        </property>
        <property name="icon">
-        <iconset theme="edit-select-all"/>
+        <iconset theme="QIcon::ThemeIcon::MediaPlaylistRepeat"/>
        </property>
        <property name="iconSize">
         <size>
@@ -197,7 +197,7 @@
      <x>0</x>
      <y>0</y>
      <width>522</width>
-     <height>21</height>
+     <height>25</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuggggg">

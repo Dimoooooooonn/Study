@@ -1,5 +1,8 @@
-G:/study/Works/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/kirsik_autogen/EWIEGA46WW/moc_unite.cpp: G:/study/Works/OOP/kurs/kurs/unite.h \
-  G:/study/Works/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/kirsik_autogen/moc_predefs.h \
+C:/Programs/Programs/Study/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/kirsik_autogen/EWIEGA46WW/moc_unite.cpp: C:/Programs/Programs/Study/OOP/kurs/kurs/unite.h \
+  C:/Programs/Programs/Study/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/kirsik_autogen/moc_predefs.h \
+  C:/Programs/Programs/Study/OOP/kurs/kurs/arr.h \
+  C:/Programs/Programs/Study/OOP/kurs/kurs/database.h \
+  C:/Programs/Programs/Study/OOP/kurs/kurs/tv.h \
   C:/Qt/6.9.3/mingw_64/include/QtCore/QDate \
   C:/Qt/6.9.3/mingw_64/include/QtCore/QDebug \
   C:/Qt/6.9.3/mingw_64/include/QtCore/QFile \
@@ -428,7 +431,4 @@ G:/study/Works/OOP/kurs/kurs/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/kirsik_au
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
-  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wctype.h \
-  G:/study/Works/OOP/kurs/kurs/arr.h \
-  G:/study/Works/OOP/kurs/kurs/database.h \
-  G:/study/Works/OOP/kurs/kurs/tv.h
+  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wctype.h
