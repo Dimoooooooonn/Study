@@ -1,0 +1,36 @@
+char c = 0xa;
+
+
+
+
+
+////
+
+Hi.java
+
+
+
+public class Hi{
+	public static void main(String[] args){
+		System.out.println("Hello world!");
+	}
+}
+
+
+
+int a = 9;
+float f = 7.0;
+
+int c = 9 / 0;
+float fc = f / 0;
+
+& && || |
+
+
+
+>>
+<<
+>>>
+<<<
+ ^
+

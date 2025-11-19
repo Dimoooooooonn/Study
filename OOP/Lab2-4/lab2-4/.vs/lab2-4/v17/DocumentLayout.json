@@ -1,29 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "G:\\study\\Works\\OOP\\Lab2-4\\lab2-4\\",
+  "WorkspaceRootPath": "C:\\Programs\\Programs\\Study\\OOP\\Lab2-4\\lab2-4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CE016CE1-C08D-40AA-9239-FAF68F10AFCF}|lab2-4\\lab2-4.vcxproj|G:\\study\\Works\\OOP\\Lab2-4\\lab2-4\\lab2-4\\CTwo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CE016CE1-C08D-40AA-9239-FAF68F10AFCF}|lab2-4\\lab2-4.vcxproj|solutionrelative:lab2-4\\CTwo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE016CE1-C08D-40AA-9239-FAF68F10AFCF}|lab2-4\\lab2-4.vcxproj|G:\\study\\Works\\OOP\\Lab2-4\\lab2-4\\lab2-4\\printAll.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{CE016CE1-C08D-40AA-9239-FAF68F10AFCF}|lab2-4\\lab2-4.vcxproj|C:\\Programs\\Programs\\Study\\OOP\\Lab2-4\\lab2-4\\lab2-4\\printAll.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CE016CE1-C08D-40AA-9239-FAF68F10AFCF}|lab2-4\\lab2-4.vcxproj|solutionrelative:lab2-4\\printAll.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE016CE1-C08D-40AA-9239-FAF68F10AFCF}|lab2-4\\lab2-4.vcxproj|G:\\study\\Works\\OOP\\Lab2-4\\lab2-4\\lab2-4\\CFour.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{CE016CE1-C08D-40AA-9239-FAF68F10AFCF}|lab2-4\\lab2-4.vcxproj|C:\\Programs\\Programs\\Study\\OOP\\Lab2-4\\lab2-4\\lab2-4\\CFour.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CE016CE1-C08D-40AA-9239-FAF68F10AFCF}|lab2-4\\lab2-4.vcxproj|solutionrelative:lab2-4\\CFour.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE016CE1-C08D-40AA-9239-FAF68F10AFCF}|lab2-4\\lab2-4.vcxproj|G:\\study\\Works\\OOP\\Lab2-4\\lab2-4\\lab2-4\\CThree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{CE016CE1-C08D-40AA-9239-FAF68F10AFCF}|lab2-4\\lab2-4.vcxproj|C:\\Programs\\Programs\\Study\\OOP\\Lab2-4\\lab2-4\\lab2-4\\CThree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CE016CE1-C08D-40AA-9239-FAF68F10AFCF}|lab2-4\\lab2-4.vcxproj|solutionrelative:lab2-4\\CThree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE016CE1-C08D-40AA-9239-FAF68F10AFCF}|lab2-4\\lab2-4.vcxproj|G:\\study\\Works\\OOP\\Lab2-4\\lab2-4\\lab2-4\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{CE016CE1-C08D-40AA-9239-FAF68F10AFCF}|lab2-4\\lab2-4.vcxproj|C:\\Programs\\Programs\\Study\\OOP\\Lab2-4\\lab2-4\\lab2-4\\CTwo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CE016CE1-C08D-40AA-9239-FAF68F10AFCF}|lab2-4\\lab2-4.vcxproj|solutionrelative:lab2-4\\CTwo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE016CE1-C08D-40AA-9239-FAF68F10AFCF}|lab2-4\\lab2-4.vcxproj|C:\\Programs\\Programs\\Study\\OOP\\Lab2-4\\lab2-4\\lab2-4\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CE016CE1-C08D-40AA-9239-FAF68F10AFCF}|lab2-4\\lab2-4.vcxproj|solutionrelative:lab2-4\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE016CE1-C08D-40AA-9239-FAF68F10AFCF}|lab2-4\\lab2-4.vcxproj|G:\\study\\Works\\OOP\\Lab2-4\\lab2-4\\lab2-4\\COne.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{CE016CE1-C08D-40AA-9239-FAF68F10AFCF}|lab2-4\\lab2-4.vcxproj|C:\\Programs\\Programs\\Study\\OOP\\Lab2-4\\lab2-4\\lab2-4\\COne.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CE016CE1-C08D-40AA-9239-FAF68F10AFCF}|lab2-4\\lab2-4.vcxproj|solutionrelative:lab2-4\\COne.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -34,19 +34,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "printAll.h",
-              "DocumentMoniker": "G:\\study\\Works\\OOP\\Lab2-4\\lab2-4\\lab2-4\\printAll.h",
+              "DocumentMoniker": "C:\\Programs\\Programs\\Study\\OOP\\Lab2-4\\lab2-4\\lab2-4\\printAll.h",
               "RelativeDocumentMoniker": "lab2-4\\printAll.h",
-              "ToolTip": "G:\\study\\Works\\OOP\\Lab2-4\\lab2-4\\lab2-4\\printAll.h",
+              "ToolTip": "C:\\Programs\\Programs\\Study\\OOP\\Lab2-4\\lab2-4\\lab2-4\\printAll.h",
               "RelativeToolTip": "lab2-4\\printAll.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -55,24 +59,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "CFour.h",
-              "DocumentMoniker": "G:\\study\\Works\\OOP\\Lab2-4\\lab2-4\\lab2-4\\CFour.h",
+              "DocumentMoniker": "C:\\Programs\\Programs\\Study\\OOP\\Lab2-4\\lab2-4\\lab2-4\\CFour.h",
               "RelativeDocumentMoniker": "lab2-4\\CFour.h",
-              "ToolTip": "G:\\study\\Works\\OOP\\Lab2-4\\lab2-4\\lab2-4\\CFour.h",
+              "ToolTip": "C:\\Programs\\Programs\\Study\\OOP\\Lab2-4\\lab2-4\\lab2-4\\CFour.h",
               "RelativeToolTip": "lab2-4\\CFour.h",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-10-31T03:44:38.12Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "CThree.h",
-              "DocumentMoniker": "G:\\study\\Works\\OOP\\Lab2-4\\lab2-4\\lab2-4\\CThree.h",
+              "DocumentMoniker": "C:\\Programs\\Programs\\Study\\OOP\\Lab2-4\\lab2-4\\lab2-4\\CThree.h",
               "RelativeDocumentMoniker": "lab2-4\\CThree.h",
-              "ToolTip": "G:\\study\\Works\\OOP\\Lab2-4\\lab2-4\\lab2-4\\CThree.h",
+              "ToolTip": "C:\\Programs\\Programs\\Study\\OOP\\Lab2-4\\lab2-4\\lab2-4\\CThree.h",
               "RelativeToolTip": "lab2-4\\CThree.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -81,13 +85,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "CTwo.h",
-              "DocumentMoniker": "G:\\study\\Works\\OOP\\Lab2-4\\lab2-4\\lab2-4\\CTwo.h",
+              "DocumentMoniker": "C:\\Programs\\Programs\\Study\\OOP\\Lab2-4\\lab2-4\\lab2-4\\CTwo.h",
               "RelativeDocumentMoniker": "lab2-4\\CTwo.h",
-              "ToolTip": "G:\\study\\Works\\OOP\\Lab2-4\\lab2-4\\lab2-4\\CTwo.h",
+              "ToolTip": "C:\\Programs\\Programs\\Study\\OOP\\Lab2-4\\lab2-4\\lab2-4\\CTwo.h",
               "RelativeToolTip": "lab2-4\\CTwo.h",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-10-31T03:43:43.71Z",
               "EditorCaption": ""
@@ -96,9 +100,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "COne.h",
-              "DocumentMoniker": "G:\\study\\Works\\OOP\\Lab2-4\\lab2-4\\lab2-4\\COne.h",
+              "DocumentMoniker": "C:\\Programs\\Programs\\Study\\OOP\\Lab2-4\\lab2-4\\lab2-4\\COne.h",
               "RelativeDocumentMoniker": "lab2-4\\COne.h",
-              "ToolTip": "G:\\study\\Works\\OOP\\Lab2-4\\lab2-4\\lab2-4\\COne.h",
+              "ToolTip": "C:\\Programs\\Programs\\Study\\OOP\\Lab2-4\\lab2-4\\lab2-4\\COne.h",
               "RelativeToolTip": "lab2-4\\COne.h",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAACcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -109,11 +113,11 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "main.cpp",
-              "DocumentMoniker": "G:\\study\\Works\\OOP\\Lab2-4\\lab2-4\\lab2-4\\main.cpp",
+              "DocumentMoniker": "C:\\Programs\\Programs\\Study\\OOP\\Lab2-4\\lab2-4\\lab2-4\\main.cpp",
               "RelativeDocumentMoniker": "lab2-4\\main.cpp",
-              "ToolTip": "G:\\study\\Works\\OOP\\Lab2-4\\lab2-4\\lab2-4\\main.cpp",
+              "ToolTip": "C:\\Programs\\Programs\\Study\\OOP\\Lab2-4\\lab2-4\\lab2-4\\main.cpp",
               "RelativeToolTip": "lab2-4\\main.cpp",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-10-26T20:46:47.658Z",
               "EditorCaption": ""
