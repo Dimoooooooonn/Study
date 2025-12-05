@@ -2,21 +2,21 @@ public class LavnMover {
     private String model;
     private float capasity;
     private String color;
-    private int prise;
+    private float prise;
 
 
     public LavnMover(){
         model = "unknown";
         capasity = 0.0f;
         color = "unknown";
-        prise = 0;
+        prise = 0.0f;
     }
 
-    public LavnMover(String model, float capasity, String color, int prise){
+    public LavnMover(String model, float capasity, String color, float prise){
         setValue(model, capasity, color, prise);
     }
 
-    public void setValue(String model, float capasity, String color, int prise){
+    public void setValue(String model, float capasity, String color, float prise){
         this.model = model;
         this.capasity = capasity;
         this.color = color;
@@ -35,7 +35,7 @@ public class LavnMover {
         return color;
     }
 
-    public int getPrise(){
+    public float getPrise(){
         return prise;
     }
 
@@ -44,5 +44,14 @@ public class LavnMover {
         System.out.println("Объём бака: " + capasity);
         System.out.println("Цвет: " + color);
         System.out.println("Стоимость: " + prise + "\n");
+    }
+
+    public void changeColor(String color){
+        this.color = color;
+    }
+
+
+    public void discount(){
+        this.prise *= 0.80f;
     }
 }

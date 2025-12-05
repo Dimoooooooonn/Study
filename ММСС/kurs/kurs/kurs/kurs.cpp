@@ -307,14 +307,4 @@ int main()
 	}
 	cout << "Please, wait" << endl;
 	Output(file_out, Bij); // Вывод матрицы пропускных способностей
-
-	// Матрицы задержек и оптимизированных пропускных способностей
-	auto pair = optimize_matrix(matrixR2, Aij, Bij, T0, L, static_cast<bool>(optimizeT0)); // Оптимизация
-	file_out << " / Матрица задержек / " << endl;
-	Output(file_out, pair.second); // Вывод матрицы задержек
-	file_out << " / Матрица оптимизированных пропускных способностей / " << endl;
-	Output(file_out, Bij); // Вывод оптимизированной матрицы
-	file_out << "Оптимизированное T: " << pair.first << endl; // Вывод оптимизированного T
-	file_out.close(); // Закрытие выходного файла
-	cout << "Data was written to file 'output.txt'" << endl; // Сообщение об окончании работы
 }
