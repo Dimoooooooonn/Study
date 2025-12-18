@@ -36,12 +36,16 @@ function checkEmail() {
     return false; 
 }
 let col = 1;
-container.ondblclick = function() {
-    if (col == 1) {
-        container.style.backgroundColor = "#5f905fff"; 
+
+const container = document.getElementById("email-container");
+
+container.addEventListener("dblclick", function () {
+    if (col === 1) {
+        container.style.backgroundColor = "#67b867ff";
         col = 0;
     } else {
-        container.style.backgroundColor = "#ffffffff"; 
+        container.style.backgroundColor = "#6e44d9ff";
         col = 1;
     }
-};
+});
+
