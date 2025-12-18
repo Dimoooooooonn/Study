@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: left;
+    background-color: #f0f0f5;
+    margin: 0;
+    padding: 0;
+}
+
+.all_center {
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+input[type="number"] {
+    background-color: rgb(235, 198, 129); 
+}
+
+input[type="button"].second_btn {
+    background-color: orange !important;  
+    color: white !important;              
+    padding: 10px 20px !important;        
+    border-radius: 5px !important;        
+    border: none !important;
+    cursor: pointer !important;
+}
+
+input[type="button"].second_btn:hover {
+    background-color: darkorange !important;
+}
+
+.opros{
+    text-align: center;
+    color:#0a610d;
+    padding-top: 6vh;
+}
+
+.radio_button{
+     margin-left: 20px;
+     font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+#email-container {
+    width: 300px;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #f0f0f5; 
+    margin: 50px auto;
+    text-align: center;
+    cursor: pointer; 
+}
+
+input[type="text2"] {
+    width: 90%;
+    padding: 5px;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    padding: 8px 15px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+#message {
+    margin-top: 10px;
+    font-weight: bold;
+}
