@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Инфо</title>
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+</head>
+<body>
+    <div class="buttons">
+    <div class="btn"><button onclick="showBrowserInfo()">1. Информация о браузере</button></div>
+    <div class="btn"><button onclick="showOSInfo()">2. ОС</button></div>
+    <div class="btn"><button onclick="showScreenSize()">3. Ширина и высота экрана</button></div>
+    <div class="btn"><button onclick="showAvailableScreenSize()">4. Ширина и высота экрана (с учетом служебных элементов)</button></div>
+    <div class="btn"><button onclick="showColorDepth()">5. Глубина цвета</button></div>
+    <div class="btn"><button onclick="showConnectionInfo()">6. Подключение к интернету</button></div>
+    <div class="btn"><button onclick="showPreferredLanguage()">7. Предпочтительный язык</button></div>
+    <div class="btn"><button onclick="showCurrentURL()">8. URL текущего документа</button></div>
+    <div class="btn"><button onclick="showProtocol()">9. Протокол</button></div>
+    <div class="btn"><button onclick="showHost()">10. Хост</button></div>
+    </div>
+
+    <div class="result">
+            <h3>Результат:</h3>
+    <div id="result">Нажмите на кнопку, чтобы увидеть информацию </div>
+
+
+    <script src="scripts.js"></script>
+</body>
+</html>
