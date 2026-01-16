@@ -206,7 +206,7 @@
 						<UnitType><![CDATA[NONE]]></UnitType>
 						<SdArray>false</SdArray>
 						<DefaultValue Class="CodeValue">
-							<Code><![CDATA[0.91]]></Code>
+							<Code><![CDATA[2]]></Code>
 						</DefaultValue>
 						<ParameterEditor>
 							<Id>1729060783784</Id>
@@ -230,7 +230,7 @@
 						<UnitType><![CDATA[NONE]]></UnitType>
 						<SdArray>false</SdArray>
 						<DefaultValue Class="CodeValue">
-							<Code><![CDATA[0.7399]]></Code>
+							<Code><![CDATA[0.7071]]></Code>
 						</DefaultValue>
 						<ParameterEditor>
 							<Id>1729060787650</Id>
@@ -787,7 +787,7 @@ cnt++;]]></Code>
 						<Parameter>
 							<Name><![CDATA[capacity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[20]]></Code>
+								<Code><![CDATA[5]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
