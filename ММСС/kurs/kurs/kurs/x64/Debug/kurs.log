@@ -1,7 +1,5 @@
 ﻿  kurs.cpp
-C:\Programs\Programs\Study\ММСС\kurs\kurs\kurs\kurs.cpp(18,8): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Programs\Programs\Study\ММСС\kurs\kurs\kurs\kurs.cpp(49,8): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Programs\Programs\Study\ММСС\kurs\kurs\kurs\kurs.cpp(68,8): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Programs\Programs\Study\ММСС\kurs\kurs\kurs\kurs.cpp(98,8): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Programs\Programs\Study\ММСС\kurs\kurs\kurs\kurs.cpp(143,30): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-  kurs.vcxproj -> C:\Programs\Programs\Study\ММСС\kurs\kurs\x64\Debug\kurs.exe
+G:\study\Works\ММСС\kurs\kurs\kurs\kurs.cpp(18,8): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+G:\study\Works\ММСС\kurs\kurs\kurs\kurs.cpp(49,8): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+G:\study\Works\ММСС\kurs\kurs\kurs\kurs.cpp(79,8): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  kurs.vcxproj -> G:\study\Works\ММСС\kurs\kurs\x64\Debug\kurs.exe

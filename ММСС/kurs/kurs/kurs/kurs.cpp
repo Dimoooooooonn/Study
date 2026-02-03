@@ -62,138 +62,51 @@ vector<vector<float_type>> load_intensity(const vector<vector<float_type>>& matr
 	}
 	return matrixY_hatch; // Возврат матрицы интенсивности
 }
+// Рекуррентный расчёт формулы Эрланга B
+float_type erlangB(float_type y, int v)
+{
+	float_type B = 1.0; // B(0, y)
+	for (int i = 1; i <= v; ++i)
+	{
+		B = (y * B) / (i + y * B);
+	}
+	return B;
+}
+
 // Функция генерации матрицы потоков
 vector<vector<int>> matrix_of_streams(vector<vector<float_type>>& matrixY_hatch, float_type quality)
 {
-	int n = matrixY_hatch.size(); // Получение размера матрицы
-	float_type p_max = 1. - quality; // Вычисление порогового значения вероятности
-	vector<vector<int>> matrixV(n, vector<int>(n, 0)); // Инициализация матрицы потоков
-	// Итерация по матрице интенсивности
+	int n = matrixY_hatch.size();          // Размер матрицы
+	float_type p_max = 1. - quality;      // Пороговая вероятность отказа p0
+	vector<vector<int>> matrixV(n, vector<int>(n, 0)); // Матрица потоков
+
+	// Итерация по матрице интенсивностей
 	for (int i = 0; i < n; ++i)
 	{
 		for (int j = 0; j < n; ++j)
 		{
-			int v = 0; // Инициализация потока
-			if (matrixY_hatch[i][j] != 0)
+			float_type y = matrixY_hatch[i][j];
+			int v = 0;
+
+			if (y != 0)
 			{
-				v = 1; // Если интенсивность не нулевая, начинаем с 1
-				float_type p = 1, y = matrixY_hatch[i][j], numerator = y, sum = y;
-				// Цикл для нахождения количества потоков
+				float_type p = 1.0;  // Начальное значение B(0, y)
+
+				// Ищем минимальное v, при котором p <= p_max
 				while (p > p_max)
 				{
-					++v; // Увеличиваем поток
-					numerator = (numerator / v) * y; // Вычисляем числитель
-					sum += numerator; // Суммируем
-					p = numerator / sum; // Обновляем вероятность
+					++v;
+					p = erlangB(y, v);
 				}
 			}
+
 			matrixV[i][j] = v; // Заполнение матрицы потоков
 		}
 	}
-	return matrixV; // Возврат матрицы потоков
+
+	return matrixV; // Возврат результата
 }
-// Функция для расчета задержек
-void calc_delays(const vector<vector<int>>& Rij, const vector<vector<int>>& Aij, const vector<vector<float_type>>& Bij, vector<vector<float_type>>& Tij, float_type L)
-{
-	int n = Tij.size(); // Получение размера матрицы задержек
-	// Итерация по всем парам узлов
-	for (int i = 0; i < n; ++i)
-	{
-		for (int j = 0; j < n; ++j)
-		{
-			if (Rij[i][j] == j + 1 && i != j) // Проверка, что маршрут прямой
-			{
-				Tij[i][j] = (8. * L) / (Bij[i][j] - Aij[i][j]); // Вычисление задержки
-			}
-			else { Tij[i][j] = 0; } // Если маршрут не прямой, задержка равна 0
-		}
-	}
-	// Перерасчет задержек для непрямых маршрутов
-	for (int i = 0; i < n; ++i)
-	{
-		for (int j = 0; j < n; ++j)
-		{
-			if (Rij[i][j] != j + 1)
-			{
-				Tij[i][j] += Tij[i][Rij[i][j] - 1]; // Добавляем задержку для промежуточного маршрута
-				// Итерация по промежуточным маршрутам
-				for (int k = Rij[i][j] - 1; k != j; k = Rij[k][j] - 1) {
-					Tij[i][j] += Tij[k][Rij[k][j] - 1]; // Обновляем задержку
-				}
-			}
-		}
-	}
-}
-// Функция для вычисления отклонений
-float_type variation(const vector<vector<float_type>>& Tij, float_type T0)
-{
-	double O = 0; // Инициализация O
-	for (auto& str : Tij) // Итерация по строкам задержек
-	{
-		for (auto& t : str)
-		{
-			O += (t - T0 / 2) * (t - T0 / 2); // Вычисление квадрата отклонения
-		}
-	}
-	return O; // Возврат общего отклонения
-}
-// Функция для оптимизации матрицы B
-vector<vector<float_type>> optimize_matrixB(const vector<vector<int>>& Rij, const vector<vector<int>>& Aij, vector<vector<float_type>>& Bij, float_type T0, float_type L)
-{
-	int bestI = 0, bestJ = 0, n = Bij.size(); // Инициализация переменных для оптимизации
-	float_type q = 1e+10, bestO = q; // Установка начальных значений для оптимизации
-	vector<vector<float_type>> Tij(n, vector<float_type>(n, 0)); // Инициализация матрицы задержек
-	// Основной цикл для поиска наилучшего значения
-	while (true)
-	{
-		for (int i = 0; i < n; ++i)
-		{
-			for (int j = 0; j < n; ++j)
-			{
-				if (Bij[i][j] != 0)
-				{
-					Bij[i][j] += DC; // Увеличение пропускной способности
-					calc_delays(Rij, Aij, Bij, Tij, L); // Перерасчет задержек
-					Bij[i][j] -= DC; // Восстановление пропускной способности
-					float_type O = variation(Tij, T0); // Вычисление нового отклонения
-					if (O < bestO) // Если новое отклонение лучше
-					{
-						bestO = O, bestI = i, bestJ = j; // Обновление наилучшего значения
-					}
-				}
-			}
-		}
-		if (bestO < q) // Если наилучшее значение улучшено
-		{
-			Bij[bestI][bestJ] += DC; // Обновление матрицы B
-			q = bestO; // Обновление лучшего значения
-		}
-		else { break; } // Выход из цикла, если улучшений нет
-	}
-	return Tij; // Возврат матрицы задержек
-}
-// Функция проверяет, оптимизирована ли матрица
-bool check_optimize(const vector<vector<float_type>>& Tij, float_type T0)
-{
-	return find_if(Tij.begin(), Tij.end(), [&T0](auto v) // Нахождение хотя бы одной задержки больше половины T0
-		{
-			return any_of(v.begin(), v.end(), [&T0](auto x)
-				{
-					return x > T0 / 2; // Проверка условия
-				}) != 0;
-		}) == Tij.end(); // Возврат true, если все значения удовлетворяют условию
-}
-// Основная функция для оптимизации матрицы B
-pair<float_type, vector<vector<float_type>>> optimize_matrix(const vector<vector<int>>& Rij, const vector<vector<int>>& Aij, vector<vector<float_type>>& Bij, float_type T0, float_type L, bool is_optimizeT0)
-{
-	auto old_T0 = T0, dT = T0 / ACCURACY; // Сохранение старого T0 и вычисление дельты
-	auto Tij = optimize_matrixB(Rij, Aij, Bij, T0, L); // Начальная оптимизация
-	while (is_optimizeT0 && !check_optimize(Tij, old_T0) && (T0 -= dT) > 1e-20)
-	{
-		Tij = optimize_matrixB(Rij, Aij, Bij, T0, L); // Итеративная оптимизация
-	}
-	return make_pair(T0, Tij); // Возврат пары с оптимизированным T0 и матрицей задержек
-}
+
 // Шаблонная функция для вывода вектора
 template <class T>
 void print_vector(std::ostream& os, const vector<T>& matrix)
