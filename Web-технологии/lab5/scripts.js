@@ -1,6 +1,6 @@
 const resultElement = document.getElementById("result");
 function showBrowserInfo() {
-    const userAgent = navigator.userAgent;
+    const userAgent = navigator.userAgent; // это строка, которую браузер предоставляет сайту. В ней содержится информация о браузере, версии, ОС и иногда устройстве.
     let browserName = "Неизвестно";
     let browserVersion = "Неизвестно";
     

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Расчет стипендии</title>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+    </style>
+</head>
+<body>
+    <h2>Введите данные студента</h2>
+    <form action="form.php" method="POST"> <!--//Указывает, куда отправлять данные после нажатия кнопки. Здесь данные уйдут в файл form.php -->
+        <label>Фамилия:</label>
+        <input type="text" name="surname" required><br><br>
+
+        <label>Оценка по АОПИ:</label>
+        <input type="number" name="grade1" min="2" max="5" required><br>
+
+        <label>Оценка по ООП:</label>
+        <input type="number" name="grade2" min="2" max="5" required><br>
+
+        <label>Оценка по АиСД:</label>
+        <input type="number" name="grade3" min="2" max="5" required><br><br>
+
+        <input type="submit" value="Рассчитать средний балл">
+    </form>
+</body>
+</html>

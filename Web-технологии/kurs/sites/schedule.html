@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <title>Расписание — Санаторий</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Санаторий: проживание, путёвки, лечение, сервис и расписание.">
+<link rel="stylesheet" href="assets/css/styles.css">
+<script defer src="assets/js/app.js"></script>
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+
+</head>
+<body>
+<header class="site-header">
+
+  <div class="nav">
+    <div class="container nav__inner">
+      <a class="brand" href="index.html" aria-label="Главная">
+        <span class="brand__mark">S</span>
+        <span class="brand__text">Санаторий</span>
+      </a>
+
+      <button class="burger" type="button" aria-label="Открыть меню" aria-expanded="false" data-burger>
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="menu" data-menu>
+        <a class="menu__link" href="rooms.html">Номера</a>
+        <a class="menu__link" href="schedule.html">Расписание</a>
+        <a class="menu__link" href="reviews.html">Отзывы</a>
+        <a class="menu__link" href="about.html">О санатории</a>
+      </nav>
+
+      <div class="nav__actions">
+        <a class="icon-link" href="login.html" aria-label="Вход / кабинет">
+          <span class="icon">👤</span>
+        </a>
+        <a class="btn btn--primary" href="booking.html">Забронировать</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="main">
+<div class="container">
+  <div class="breadcrumbs">
+    <a href="index.html">Главная</a> <span class="breadcrumbs__sep">/</span>
+    <span>Расписание</span>
+  </div>
+
+  <div class="toolbar">
+    <div class="toolbar__left">
+      <h1 class="h2" style="margin:0">Расписание мероприятий</h1>
+      <span class="badge">публичное</span>
+    </div>
+    <div class="toolbar__right">
+      <a class="btn btn--sm" href="cabinet/schedule.html">Личное расписание</a>
+    </div>
+  </div>
+
+  <div class="panel" style="padding:18px">
+    <div class="notice">
+      <strong>Подсказка</strong>
+      <div class="muted">Публичные события — таблица events. Запись — event_registrations. Процедуры пользователя — appointments.</div>
+    </div>
+
+    <hr class="line">
+    <table class="table">
+      <thead>
+        <tr><th>Дата</th><th>Событие</th><th>Место</th><th>Действие</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Пн</td>
+          <td>Йога для начинающих</td>
+          <td>Зал №1</td>
+          <td><a class="btn btn--sm" href="login.html">Записаться</a></td>
+        </tr>
+        <tr>
+          <td>Ср</td>
+          <td>Экскурсия в парк</td>
+          <td>Сбор у ресепшн</td>
+          <td><a class="btn btn--sm" href="login.html">Записаться</a></td>
+        </tr>
+        <tr>
+          <td>Пт</td>
+          <td>Лекция “Сон и восстановление”</td>
+          <td>Конференц-зал</td>
+          <td><a class="btn btn--sm" href="login.html">Записаться</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+</main>
+<footer class="site-footer">
+  <div class="container footer__grid">
+    <div>
+      <div class="footer__brand">
+        <span class="brand__mark">S</span>
+        <strong>Санаторий</strong>
+      </div>
+      <p class="muted">Отдых и восстановление здоровья. Номера, процедуры, мероприятия и путёвки.</p>
+    </div>
+
+    <div>
+      <h4 class="footer__title">Разделы</h4>
+      <ul class="footer__list">
+        <li><a href="rooms.html">Номера</a></li>
+        <li><a href="schedule.html">Расписание</a></li>
+        <li><a href="reviews.html">Отзывы</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h4 class="footer__title">Аккаунт</h4>
+      <ul class="footer__list">
+        <li><a href="login.html">Вход</a></li>
+        <li><a href="register.html">Регистрация</a></li>
+        <li><a href="cabinet/index.html">Личный кабинет</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h4 class="footer__title">Контакты</h4>
+      <ul class="footer__list">
+        <li><a>+79194741060</a></li>
+        <li><a>filimonow.dimas.ew@gmail.com</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
