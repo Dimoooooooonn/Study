@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Номера — Сосновый берег</title>
+  <meta name="description" content="Современный санаторий для отдыха, восстановления здоровья и комфортного проживания.">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/js/app.js"></script>
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+<header class="site-header">
+  <div class="nav">
+    <div class="container nav__inner">
+      <a class="brand" href="index.html" aria-label="Главная">
+        <span class="brand__mark">S</span>
+        <span class="brand__text">Сосновый берег</span>
+      </a>
+
+      <button class="burger" type="button" aria-label="Открыть меню" aria-expanded="false" data-burger>
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="menu" data-menu>
+        <a class="menu__link" href="index.html">Главная</a> <a class="menu__link is-active" href="rooms.html" aria-current="page">Номера</a> <a class="menu__link" href="schedule.html">Расписание</a> <a class="menu__link" href="reviews.html">Отзывы</a> <a class="menu__link" href="about.html">О санатории</a>
+      </nav>
+
+      <div class="nav__actions">
+        <a class="btn btn--sm btn--ghost" href="cabinet/index.html">Личный кабинет</a>
+        <a class="btn btn--primary" href="booking.html">Забронировать</a>
+      </div>
+    </div>
+  </div>
+</header>
+<main class="main">
+  <div class="container">
+    <div class="breadcrumbs"><a href="index.html">Главная</a> <span class="breadcrumbs__sep">/</span> <span>Номера</span></div>
+
+    <section class="toolbar">
+      <div class="toolbar__left">
+        <div>
+          <div class="kicker">Размещение</div>
+          <h1 class="h2" style="margin:0">Выберите формат проживания</h1>
+        </div>
+      </div>
+      <div class="toolbar__right">
+        <span class="badge">3 категории</span>
+        <a class="btn btn--sm btn--primary" href="booking.html">Забронировать</a>
+      </div>
+    </section>
+
+    <section class="panel form--card">
+      <div class="form__row">
+        <label class="field">
+          <span class="field__label">Дата заезда</span>
+          <input class="input" type="date" value="2026-04-10">
+        </label>
+        <label class="field">
+          <span class="field__label">Дата выезда</span>
+          <input class="input" type="date" value="2026-04-17">
+        </label>
+      </div>
+      <div class="form__row">
+        <label class="field">
+          <span class="field__label">Гости</span>
+          <select class="select">
+            <option>1 гость</option>
+            <option selected>2 гостя</option>
+            <option>3–4 гостя</option>
+          </select>
+        </label>
+        <label class="field">
+          <span class="field__label">Предпочтение</span>
+          <select class="select">
+            <option selected>Тихий этаж</option>
+            <option>Ближе к лечебному корпусу</option>
+            <option>Вид на парк</option>
+          </select>
+        </label>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="grid grid--3">
+        <article class="card room-card">
+          <div class="badge">Стандарт</div>
+          <h2 class="card__title" style="margin-top:10px">Стандарт, 2‑местный</h2>
+          <p class="card__meta">Универсальный вариант для спокойного отдыха и базовой программы проживания.</p>
+          <ul class="feature-list compact-list">
+            <li>18–22 м²</li>
+            <li>2 гостя</li>
+            <li>Душ, ТВ, Wi‑Fi, холодильник</li>
+          </ul>
+          <div class="price-row"><strong class="price">от 7 500 ₽</strong><span class="muted small">за ночь</span></div>
+          <div class="actions-row">
+            <a class="btn btn--sm btn--primary" href="room.html">Подробнее</a>
+            <a class="btn btn--sm" href="booking.html">Выбрать</a>
+          </div>
+        </article>
+        <article class="card room-card">
+          <div class="badge">Комфорт</div>
+          <h2 class="card__title" style="margin-top:10px">Комфорт, улучшенный</h2>
+          <p class="card__meta">Подойдёт для более долгих заездов и гостей, которым важна дополнительная зона отдыха.</p>
+          <ul class="feature-list compact-list">
+            <li>26–30 м²</li>
+            <li>2 гостя</li>
+            <li>Кресла, чайная станция, увеличенная площадь</li>
+          </ul>
+          <div class="price-row"><strong class="price">от 9 800 ₽</strong><span class="muted small">за ночь</span></div>
+          <div class="actions-row">
+            <a class="btn btn--sm" href="booking.html">Оформить бронь</a>
+          </div>
+        </article>
+        <article class="card room-card">
+          <div class="badge">Семейный</div>
+          <h2 class="card__title" style="margin-top:10px">Семейный номер</h2>
+          <p class="card__meta">Просторный формат с дополнительным местом и удобством для отдыха с близкими.</p>
+          <ul class="feature-list compact-list">
+            <li>35–40 м²</li>
+            <li>до 4 гостей</li>
+            <li>Отдельная спальня и зона отдыха</li>
+          </ul>
+          <div class="price-row"><strong class="price">от 12 400 ₽</strong><span class="muted small">за ночь</span></div>
+          <div class="actions-row">
+            <a class="btn btn--sm" href="booking.html">Уточнить даты</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </div>
+</main>
+<footer class="site-footer">
+  <div class="container footer__grid">
+    <div>
+      <div class="footer__brand">
+        <span class="brand__mark">S</span>
+        <strong>Санаторий «Сосновый берег»</strong>
+      </div>
+      <p class="muted">Современный санаторий для отдыха, восстановления здоровья и комфортного проживания.</p>
+    </div>
+
+    <div>
+      <h4 class="footer__title">Разделы</h4>
+      <ul class="footer__list">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="rooms.html">Номера</a></li>
+        <li><a href="schedule.html">Расписание</a></li>
+        <li><a href="reviews.html">Отзывы</a></li>
+        <li><a href="about.html">О санатории</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h4 class="footer__title">Аккаунт</h4>
+      <ul class="footer__list">
+        <li><a href="login.html">Вход</a></li>
+        <li><a href="register.html">Регистрация</a></li>
+        <li><a href="reset.html">Восстановление доступа</a></li>
+        <li><a href="cabinet/index.html">Личный кабинет</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h4 class="footer__title">Контакты</h4>
+      <ul class="footer__list">
+        <li><a href="tel:+79194741060">+7 (919) 474-10-60</a></li>
+        <li><a href="mailto:filimonow.dimas.ew@gmail.com">filimonow.dimas.ew@gmail.com</a></li>
+        <li>Курортная зона, сосновый парк, первая линия озера</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container footer__bottom">
+    <small class="muted">© <span id="year"></span> Санаторий «Сосновый берег»</small>
+    <small class="muted">Тишина, природа и забота о вашем отдыхе.</small>
+  </div>
+</footer>
+</body>
+</html>

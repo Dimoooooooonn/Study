@@ -6,7 +6,7 @@ public class LavnMover {
 
 
     public LavnMover(){
-        model = "unknown";
+            model = "unknown";
         capasity = 0.0f;
         color = "unknown";
         prise = 0.0f;

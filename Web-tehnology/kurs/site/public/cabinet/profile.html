@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Кабинет — Профиль</title>
+  <meta name="description" content="Современный санаторий для отдыха, восстановления здоровья и комфортного проживания.">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <script defer src="../assets/js/app.js"></script>
+  <link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+<header class="site-header">
+  <div class="nav">
+    <div class="container nav__inner">
+      <a class="brand" href="../index.html" aria-label="Главная">
+        <span class="brand__mark">S</span>
+        <span class="brand__text">Сосновый берег</span>
+      </a>
+
+      <button class="burger" type="button" aria-label="Открыть меню" aria-expanded="false" data-burger>
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="menu" data-menu>
+        <a class="menu__link" href="../index.html">Главная</a> <a class="menu__link" href="../rooms.html">Номера</a> <a class="menu__link" href="../schedule.html">Расписание</a> <a class="menu__link" href="../reviews.html">Отзывы</a> <a class="menu__link" href="../about.html">О санатории</a>
+      </nav>
+
+      <div class="nav__actions">
+        <a class="btn btn--sm btn--ghost" href="../cabinet/index.html">Личный кабинет</a>
+        <a class="btn btn--primary" href="../booking.html">Забронировать</a>
+      </div>
+    </div>
+  </div>
+</header>
+<main class="main">
+  <div class="container">
+    <div class="breadcrumbs"><a href="../index.html">Главная</a> <span class="breadcrumbs__sep">/</span> <a href="../cabinet/index.html">Кабинет</a> <span class="breadcrumbs__sep">/</span> <span>Профиль</span></div>
+    <div class="sidebar-layout">
+      <aside class="panel sidebar"><h3 style="margin:0 0 10px">Личный кабинет</h3><p class="muted small" style="margin-top:0">Разделы кабинета помогают быстро находить бронирования, расписание, оплаты и обращения.</p><a class="" href="index.html">Обзор</a><a class="is-active" href="profile.html" aria-current="page">Профиль</a><a class="" href="bookings.html">Бронирования</a><a class="" href="schedule.html">Расписание</a><a class="" href="payments.html">Оплаты</a><a class="" href="support.html">Поддержка</a><a class="" href="/logout">Выйти</a></aside>
+      <section class="panel content">
+        <div class="kicker">Данные гостя</div>
+        <h1 class="h2">Профиль</h1>
+        {{messageBlock}}
+        <form class="form" action="/cabinet/profile" method="post">
+          <div class="form__row">
+            <label class="field"><span class="field__label">Имя</span><input class="input" name="firstName" value="{{firstName}}"></label>
+            <label class="field"><span class="field__label">Фамилия</span><input class="input" name="lastName" value="{{lastName}}"></label>
+          </div>
+          <div class="form__row">
+            <label class="field"><span class="field__label">Телефон</span><input class="input" name="phone" value="{{phone}}"></label>
+            <label class="field"><span class="field__label">Email</span><input class="input" name="email" value="{{email}}"></label>
+          </div>
+          <div class="form__row">
+            <label class="field"><span class="field__label">Дата рождения</span><input class="input" type="date" name="birthDate" value="{{birthDate}}"></label>
+            <label class="field"><span class="field__label">Город</span><input class="input" name="city" value="{{city}}"></label>
+          </div>
+          <label class="field"><span class="field__label">Комментарий к размещению</span><textarea class="textarea" name="comment" rows="4">{{comment}}</textarea></label>
+          <div class="actions-row"><button class="btn btn--primary" type="submit">Сохранить изменения</button></div>
+        </form>
+
+        <hr class="line">
+
+        <div class="grid grid--2 split-grid">
+          <div class="card">
+            <h2 class="card__title">Медицинские предпочтения</h2>
+            <ul class="feature-list compact-list">
+              <li>Диетическое питание — включено</li>
+              <li>Аллергия на цитрусовые — указана</li>
+              <li>Предпочтительное время процедур — первая половина дня</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h2 class="card__title">Контакт на случай связи</h2>
+            <p class="card__meta">{{emergencyContact}}</p>
+            <p class="muted small">Этот контакт можно использовать для быстрой связи с близким человеком во время поездки.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</main>
+<footer class="site-footer">
+  <div class="container footer__grid">
+    <div>
+      <div class="footer__brand">
+        <span class="brand__mark">S</span>
+        <strong>Санаторий «Сосновый берег»</strong>
+      </div>
+      <p class="muted">Современный санаторий для отдыха, восстановления здоровья и комфортного проживания.</p>
+    </div>
+
+    <div>
+      <h4 class="footer__title">Разделы</h4>
+      <ul class="footer__list">
+        <li><a href="../index.html">Главная</a></li>
+        <li><a href="../rooms.html">Номера</a></li>
+        <li><a href="../schedule.html">Расписание</a></li>
+        <li><a href="../reviews.html">Отзывы</a></li>
+        <li><a href="../about.html">О санатории</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h4 class="footer__title">Аккаунт</h4>
+      <ul class="footer__list">
+        <li><a href="../login.html">Вход</a></li>
+        <li><a href="../register.html">Регистрация</a></li>
+        <li><a href="../reset.html">Восстановление доступа</a></li>
+        <li><a href="../cabinet/index.html">Личный кабинет</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h4 class="footer__title">Контакты</h4>
+      <ul class="footer__list">
+        <li><a href="tel:+79194741060">+7 (919) 474-10-60</a></li>
+        <li><a href="mailto:filimonow.dimas.ew@gmail.com">filimonow.dimas.ew@gmail.com</a></li>
+        <li>Курортная зона, сосновый парк, первая линия озера</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container footer__bottom">
+    <small class="muted">© <span id="year"></span> Санаторий «Сосновый берег»</small>
+    <small class="muted">Тишина, природа и забота о вашем отдыхе.</small>
+  </div>
+</footer>
+</body>
+</html>

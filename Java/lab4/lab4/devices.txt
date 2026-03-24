@@ -1,0 +1,33 @@
+Type: LavnMover,
+device_manufacturer: Bosch,
+device_model: ARM37,
+power_supply: battery,
+powered_on: true,
+work_intensity: 2,
+wear_level: 12,
+grass_container_level: 30,
+blade_sharpness: 88,
+cut_height: 5,
+comment: лишнее поле которое будет проигнорировано
+
+Type: AutomaticFiring,
+device_manufacturer: Gardena,
+device_model: WaterPro,
+power_supply: 220V,
+work_intensity: 3,
+wear_level: 16,
+water_tank_level: 80,
+watering_duration: 90,
+soil_moisture: 40,
+active_zone: 2,
+extra_data: это тоже лишние данные
+
+Type: ThermalDrive,
+device_manufacturer: GreenTech,
+device_model: TD10,
+power_supply: solar,
+powered_on: false,
+wear_level: 8,
+greenhouse_temperature: 29,
+target_temperature: 24,
+response_speed: 5

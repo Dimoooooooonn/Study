@@ -1,0 +1,13 @@
+sanatorium\Booking.class
+sanatorium\Main.class
+sanatorium\User.class
+sanatorium\HtmlUtils.class
+sanatorium\SanatoriumServer.class
+sanatorium\SupportRequest.class
+sanatorium\SanatoriumServer$ScheduleItem.class
+sanatorium\TemplateUtils.class
+sanatorium\HttpUtils.class
+sanatorium\DatabaseRepository.class
+sanatorium\PasswordUtils.class
+sanatorium\Payment.class
+sanatorium\Review.class

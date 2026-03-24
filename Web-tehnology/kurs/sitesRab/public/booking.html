@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Бронирование — Сосновый берег</title>
+  <meta name="description" content="Современный санаторий для отдыха, восстановления здоровья и комфортного проживания.">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/js/app.js"></script>
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+<header class="site-header">
+  <div class="nav">
+    <div class="container nav__inner">
+      <a class="brand" href="index.html" aria-label="Главная">
+        <span class="brand__mark">S</span>
+        <span class="brand__text">Сосновый берег</span>
+      </a>
+
+      <button class="burger" type="button" aria-label="Открыть меню" aria-expanded="false" data-burger>
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="menu" data-menu>
+        <a class="menu__link" href="index.html">Главная</a> <a class="menu__link" href="rooms.html">Номера</a> <a class="menu__link" href="schedule.html">Расписание</a> <a class="menu__link" href="reviews.html">Отзывы</a> <a class="menu__link" href="about.html">О санатории</a>
+      </nav>
+
+      <div class="nav__actions">
+        <a class="btn btn--sm btn--ghost" href="cabinet/index.html">Личный кабинет</a>
+        <a class="btn btn--primary" href="booking.html">Забронировать</a>
+      </div>
+    </div>
+  </div>
+</header>
+<main class="main">
+  <div class="container">
+    <div class="breadcrumbs"><a href="index.html">Главная</a> <span class="breadcrumbs__sep">/</span> <span>Бронирование</span></div>
+
+    <section class="toolbar">
+      <div class="toolbar__left">
+        <div>
+          <div class="kicker">Оформление</div>
+          <h1 class="h2" style="margin:0">Бронирование проживания</h1>
+        </div>
+      </div>
+      <div class="toolbar__right">
+        <a class="btn btn--sm" href="rooms.html">Выбрать номер</a>
+      </div>
+    </section>
+
+    {{messageBlock}}
+    <section class="panel form--card wizard" id="bookingWizard">
+      <div class="steps">
+        <span class="step is-active">1. Даты</span>
+        <span class="step">2. Номер</span>
+        <span class="step">3. Дополнения</span>
+        <span class="step">4. Контакты</span>
+        <span class="step">5. Подтверждение</span>
+      </div>
+
+      <form class="form" action="/booking" method="post">
+      <div class="wizard-panel">
+        <h2 class="h2">Шаг 1: даты и гости</h2>
+        <div class="form__row">
+          <label class="field"><span class="field__label">Заезд</span><input class="input" type="date" name="checkIn" value="2026-04-10"></label>
+          <label class="field"><span class="field__label">Выезд</span><input class="input" type="date" name="checkOut" value="2026-04-17"></label>
+        </div>
+        <div class="form__row">
+          <label class="field"><span class="field__label">Количество гостей</span><select class="select" name="guests"><option value="1">1</option><option value="2" selected>2</option><option value="3">3</option></select></label>
+          <label class="field"><span class="field__label">Цель поездки</span><select class="select" name="purpose"><option selected>Оздоровительный отдых</option><option>Короткий восстановительный заезд</option><option>Семейный отдых</option></select></label>
+        </div>
+        <button class="btn btn--primary js-next" type="button">Далее</button>
+      </div>
+
+      <div class="wizard-panel" hidden>
+        <h2 class="h2">Шаг 2: выбор номера</h2>
+        <div class="grid grid--3">
+          <label class="card selectable-card"><input type="radio" name="room" value="Стандарт" checked> <strong>Стандарт</strong><span class="card__meta">7 500 ₽ / ночь</span></label>
+          <label class="card selectable-card"><input type="radio" name="room" value="Комфорт"> <strong>Комфорт</strong><span class="card__meta">9 800 ₽ / ночь</span></label>
+          <label class="card selectable-card"><input type="radio" name="room" value="Семейный"> <strong>Семейный</strong><span class="card__meta">12 400 ₽ / ночь</span></label>
+        </div>
+        <div class="actions-row"><button class="btn js-back" type="button">Назад</button><button class="btn btn--primary js-next" type="button">Далее</button></div>
+      </div>
+
+      <div class="wizard-panel" hidden>
+        <h2 class="h2">Шаг 3: дополнения</h2>
+        <div class="grid grid--3">
+          <label class="card selectable-card"><input type="checkbox" name="transfer" value="on" checked> <strong>Трансфер</strong><span class="card__meta">Встреча на вокзале</span></label>
+          <label class="card selectable-card"><input type="checkbox" name="massage" value="on"> <strong>Дополнительный массаж</strong><span class="card__meta">2 сеанса в первые дни</span></label>
+          <label class="card selectable-card"><input type="checkbox" name="lateCheckout" value="on"> <strong>Поздний выезд</strong><span class="card__meta">По возможности в день отъезда</span></label>
+        </div>
+        <div class="actions-row"><button class="btn js-back" type="button">Назад</button><button class="btn btn--primary js-next" type="button">Далее</button></div>
+      </div>
+
+      <div class="wizard-panel" hidden>
+        <h2 class="h2">Шаг 4: контактные данные</h2>
+        <div class="form__row">
+          <label class="field"><span class="field__label">ФИО</span><input class="input" name="fullName" value="{{currentUserName}}" placeholder="Иван Иванов"></label>
+          <label class="field"><span class="field__label">Телефон</span><input class="input" name="phone" value="{{currentUserPhone}}" placeholder="+7 (___) ___-__-__"></label>
+        </div>
+        <label class="field"><span class="field__label">Email</span><input class="input" type="email" name="email" value="{{currentUserEmail}}" placeholder="mail@example.com"></label>
+        <label class="field"><span class="field__label">Комментарий</span><textarea class="textarea" name="comment" rows="4" placeholder="Например, нужен тихий этаж и ранний заезд"></textarea></label>
+        <div class="actions-row"><button class="btn js-back" type="button">Назад</button><button class="btn btn--primary js-next" type="button">Далее</button></div>
+      </div>
+
+      <div class="wizard-panel" hidden>
+        <h2 class="h2">Шаг 5: подтверждение</h2>
+        <div class="notice notice--ok">
+          <strong>Почти всё проверено.</strong>
+          <div class="muted">Перед подтверждением заявки ещё раз сверьте даты, категорию номера, количество гостей и контактные данные.</div>
+        </div>
+        <div class="table-wrap" style="margin-top:16px">
+          <table class="table">
+            <tbody>
+              <tr><th>Период</th><td>10 апреля — 17 апреля 2026</td></tr>
+              <tr><th>Номер</th><td>Стандарт, 2‑местный</td></tr>
+              <tr><th>Гости</th><td>2 человека</td></tr>
+              <tr><th>Итог</th><td>52 500 ₽</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="actions-row"><button class="btn js-back" type="button">Назад</button><button class="btn btn--primary" type="submit">Подтвердить бронирование</button></div>
+      </div>
+      </form>
+    </section>
+  </div>
+</main>
+<footer class="site-footer">
+  <div class="container footer__grid">
+    <div>
+      <div class="footer__brand">
+        <span class="brand__mark">S</span>
+        <strong>Санаторий «Сосновый берег»</strong>
+      </div>
+      <p class="muted">Современный санаторий для отдыха, восстановления здоровья и комфортного проживания.</p>
+    </div>
+
+    <div>
+      <h4 class="footer__title">Разделы</h4>
+      <ul class="footer__list">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="rooms.html">Номера</a></li>
+        <li><a href="schedule.html">Расписание</a></li>
+        <li><a href="reviews.html">Отзывы</a></li>
+        <li><a href="about.html">О санатории</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h4 class="footer__title">Аккаунт</h4>
+      <ul class="footer__list">
+        <li><a href="login.html">Вход</a></li>
+        <li><a href="register.html">Регистрация</a></li>
+        <li><a href="reset.html">Восстановление доступа</a></li>
+        <li><a href="cabinet/index.html">Личный кабинет</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h4 class="footer__title">Контакты</h4>
+      <ul class="footer__list">
+        <li><a href="tel:+79194741060">+7 (919) 474-10-60</a></li>
+        <li><a href="mailto:filimonow.dimas.ew@gmail.com">filimonow.dimas.ew@gmail.com</a></li>
+        <li>Курортная зона, сосновый парк, первая линия озера</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container footer__bottom">
+    <small class="muted">© <span id="year"></span> Санаторий «Сосновый берег»</small>
+    <small class="muted">Тишина, природа и забота о вашем отдыхе.</small>
+  </div>
+</footer>
+</body>
+</html>
