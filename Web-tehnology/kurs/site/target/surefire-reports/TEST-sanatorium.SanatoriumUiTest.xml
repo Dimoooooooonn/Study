@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="sanatorium.SanatoriumUiTest" time="148.147" tests="6" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="G:\study\Works\Web-tehnology\kurs\site\target\test-classes;G:\study\Works\Web-tehnology\kurs\site\target\classes;C:\Users\filim\.m2\repository\com\mysql\mysql-connector-j\9.6.0\mysql-connector-j-9.6.0.jar;C:\Users\filim\.m2\repository\com\google\protobuf\protobuf-java\4.31.1\protobuf-java-4.31.1.jar;C:\Users\filim\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\filim\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\filim\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\filim\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\filim\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\filim\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\filim\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\filim\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\filim\.m2\repository\org\seleniumhq\selenium\selenium-java\4.17.0\selenium-java-4.17.0.jar;C:\Users\filim\.m2\repository\org\seleniumhq\selenium\selenium-api\4.17.0\selenium-api-4.17.0.jar;C:\Users\filim\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.17.0\selenium-chrome-driver-4.17.0.jar;C:\Users\filim\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\filim\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.17.0\selenium-chromium-driver-4.17.0.jar;C:\Users\filim\.m2\repository\org\seleniumhq\selenium\selenium-json\4.17.0\selenium-json-4.17.0.jar;C:\Users\filim\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.17.0\selenium-manager-4.17.0.jar;C:\Users\filim\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.17.0\selenium-devtools-v119-4.17.0.jar;C:\Users\filim\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.17.0\selenium-devtools-v120-4.17.0.jar;C:\Users\filim\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.17.0\selenium-devtools-v121-4.17.0.jar;C:\Users\filim\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.17.0\selenium-devtools-v85-4.17.0.jar;C:\Users\filim\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.17.0\selenium-edge-driver-4.17.0.jar;C:\Users\filim\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.17.0\selenium-firefox-driver-4.17.0.jar;C:\Users\filim\.m2\repository\org\seleniumhq\selenium\selenium-http\4.17.0\selenium-http-4.17.0.jar;C:\Users\filim\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\filim\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.17.0\selenium-ie-driver-4.17.0.jar;C:\Users\filim\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.17.0\selenium-remote-driver-4.17.0.jar;C:\Users\filim\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\filim\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\filim\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\filim\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\filim\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\filim\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\filim\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\filim\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\filim\.m2\repository\io\opentelemetry\opentelemetry-api\1.34.1\opentelemetry-api-1.34.1.jar;C:\Users\filim\.m2\repository\io\opentelemetry\opentelemetry-context\1.34.1\opentelemetry-context-1.34.1.jar;C:\Users\filim\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.34.1\opentelemetry-exporter-logging-1.34.1.jar;C:\Users\filim\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.34.1\opentelemetry-sdk-common-1.34.1.jar;C:\Users\filim\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.34.1\opentelemetry-sdk-extension-autoconfigure-spi-1.34.1.jar;C:\Users\filim\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.34.1\opentelemetry-sdk-extension-autoconfigure-1.34.1.jar;C:\Users\filim\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.34.1-alpha\opentelemetry-api-events-1.34.1-alpha.jar;C:\Users\filim\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.34.1\opentelemetry-sdk-trace-1.34.1.jar;C:\Users\filim\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.34.1\opentelemetry-sdk-1.34.1.jar;C:\Users\filim\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.34.1\opentelemetry-sdk-metrics-1.34.1.jar;C:\Users\filim\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.34.1-alpha\opentelemetry-extension-incubator-1.34.1-alpha.jar;C:\Users\filim\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.34.1\opentelemetry-sdk-logs-1.34.1.jar;C:\Users\filim\.m2\repository\net\bytebuddy\byte-buddy\1.14.11\byte-buddy-1.14.11.jar;C:\Users\filim\.m2\repository\org\seleniumhq\selenium\selenium-os\4.17.0\selenium-os-4.17.0.jar;C:\Users\filim\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\filim\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.17.0\selenium-safari-driver-4.17.0.jar;C:\Users\filim\.m2\repository\org\seleniumhq\selenium\selenium-support\4.17.0\selenium-support-4.17.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21.0.10\bin"/>
+    <property name="sun.java.command" value="C:\Users\filim\AppData\Local\Temp\surefire16296993360925728728\surefirebooter-20260326081745817_3.jar C:\Users\filim\AppData\Local\Temp\surefire16296993360925728728 2026-03-26T08-17-45_736-jvmRun1 surefire-20260326081745817_1tmp surefire_0-20260326081745817_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="G:\study\Works\Web-tehnology\kurs\site\target\test-classes;G:\study\Works\Web-tehnology\kurs\site\target\classes;C:\Users\filim\.m2\repository\com\mysql\mysql-connector-j\9.6.0\mysql-connector-j-9.6.0.jar;C:\Users\filim\.m2\repository\com\google\protobuf\protobuf-java\4.31.1\protobuf-java-4.31.1.jar;C:\Users\filim\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\filim\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\filim\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\filim\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\filim\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\filim\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\filim\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\filim\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\filim\.m2\repository\org\seleniumhq\selenium\selenium-java\4.17.0\selenium-java-4.17.0.jar;C:\Users\filim\.m2\repository\org\seleniumhq\selenium\selenium-api\4.17.0\selenium-api-4.17.0.jar;C:\Users\filim\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.17.0\selenium-chrome-driver-4.17.0.jar;C:\Users\filim\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\filim\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.17.0\selenium-chromium-driver-4.17.0.jar;C:\Users\filim\.m2\repository\org\seleniumhq\selenium\selenium-json\4.17.0\selenium-json-4.17.0.jar;C:\Users\filim\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.17.0\selenium-manager-4.17.0.jar;C:\Users\filim\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.17.0\selenium-devtools-v119-4.17.0.jar;C:\Users\filim\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.17.0\selenium-devtools-v120-4.17.0.jar;C:\Users\filim\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.17.0\selenium-devtools-v121-4.17.0.jar;C:\Users\filim\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.17.0\selenium-devtools-v85-4.17.0.jar;C:\Users\filim\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.17.0\selenium-edge-driver-4.17.0.jar;C:\Users\filim\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.17.0\selenium-firefox-driver-4.17.0.jar;C:\Users\filim\.m2\repository\org\seleniumhq\selenium\selenium-http\4.17.0\selenium-http-4.17.0.jar;C:\Users\filim\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\filim\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.17.0\selenium-ie-driver-4.17.0.jar;C:\Users\filim\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.17.0\selenium-remote-driver-4.17.0.jar;C:\Users\filim\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\filim\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\filim\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\filim\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\filim\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\filim\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\filim\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\filim\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\filim\.m2\repository\io\opentelemetry\opentelemetry-api\1.34.1\opentelemetry-api-1.34.1.jar;C:\Users\filim\.m2\repository\io\opentelemetry\opentelemetry-context\1.34.1\opentelemetry-context-1.34.1.jar;C:\Users\filim\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.34.1\opentelemetry-exporter-logging-1.34.1.jar;C:\Users\filim\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.34.1\opentelemetry-sdk-common-1.34.1.jar;C:\Users\filim\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.34.1\opentelemetry-sdk-extension-autoconfigure-spi-1.34.1.jar;C:\Users\filim\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.34.1\opentelemetry-sdk-extension-autoconfigure-1.34.1.jar;C:\Users\filim\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.34.1-alpha\opentelemetry-api-events-1.34.1-alpha.jar;C:\Users\filim\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.34.1\opentelemetry-sdk-trace-1.34.1.jar;C:\Users\filim\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.34.1\opentelemetry-sdk-1.34.1.jar;C:\Users\filim\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.34.1\opentelemetry-sdk-metrics-1.34.1.jar;C:\Users\filim\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.34.1-alpha\opentelemetry-extension-incubator-1.34.1-alpha.jar;C:\Users\filim\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.34.1\opentelemetry-sdk-logs-1.34.1.jar;C:\Users\filim\.m2\repository\net\bytebuddy\byte-buddy\1.14.11\byte-buddy-1.14.11.jar;C:\Users\filim\.m2\repository\org\seleniumhq\selenium\selenium-os\4.17.0\selenium-os-4.17.0.jar;C:\Users\filim\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\filim\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.17.0\selenium-safari-driver-4.17.0.jar;C:\Users\filim\.m2\repository\org\seleniumhq\selenium\selenium-support\4.17.0\selenium-support-4.17.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\filim"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-01-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21.0.10"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="G:\study\Works\Web-tehnology\kurs\site"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\filim\AppData\Local\Temp\surefire16296993360925728728\surefirebooter-20260326081745817_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.10+8-LTS-217"/>
+    <property name="user.name" value="Dmitry"/>
+    <property name="stdout.encoding" value="Cp1251"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\filim\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\filim\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.10"/>
+    <property name="user.dir" value="G:\study\Works\Web-tehnology\kurs\site"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21.0.10\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Meta Horizon\Support\oculus-runtime;C:\ffmpeg\bin;C:\ffmpeg\bin;G:\Programs\FFmpeg\ffmpeg\bin;C:\Program Files\Java\jdk-21.0.10\bin;G:\Programs\FFmpeg\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Users\filim\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\filim\AppData\Local\Programs\Python\Python310\;C:\Users\filim\AppData\Local\Microsoft\WindowsApps;G:\Programs\Python\PyCharm Community Edition 2023.2.1\bin;C:\Users\filim\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\filim\.dotnet\tools;C:\Program Files\WireGuard\;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files\Git\cmd;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Java\jdk-21.0.10\bin;C:\tools\apache-maven-3.9.14\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\filim\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\filim\AppData\Local\Programs\Python\Python39\;C:\Users\filim\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\filim\AppData\Local\Programs\Python\Python310\;C:\Users\filim\AppData\Local\Microsoft\WindowsApps;G:\Programs\Python\PyCharm Community Edition 2023.2.1\bin;C:\Users\filim\.dotnet\tools;C:\Users\filim\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\filim\.lmstudio\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2025.2.4\bin;C:\tools\apache-maven-3.9.14\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1251"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.10+8-LTS-217"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="guestShouldCreateBookingAndPayFirstPayment" classname="sanatorium.SanatoriumUiTest" time="48.649">
+    <system-out><![CDATA[==================================================
+Подготовка браузера перед тестом
+==================================================
+Браузер Chrome успешно открыт
+
+[ПАУЗА]  (2500 мс)
+Запущен тест: guestShouldCreateBookingAndPayFirstPayment
+Что проверяем: Проверяем вход гостя, создание бронирования и оплату первого платежа.
+--------------------------------------------------
+[ШАГ] Входим в личный кабинет тестовым пользователем
+[OK] Открыта страница: /login.html
+[ПАУЗА] Загруженная страница открыта для просмотра (2000 мс)
+[OK] Поле заполнено: By.name: login -> guest@example.com
+[ПАУЗА] Смотрим введённое значение (1200 мс)
+[OK] Поле заполнено: By.name: password -> 123456
+[ПАУЗА] Смотрим введённое значение (1200 мс)
+[OK] Нажата кнопка: Войти
+[ПАУЗА] Смотрим результат нажатия кнопки (1200 мс)
+[OK] Найден ожидаемый текст на странице
+[ПАУЗА] Даём время увидеть сообщение на странице (1200 мс)
+[ПАУЗА] Можно посмотреть личный кабинет после входа (2500 мс)
+[ШАГ] Открываем страницу бронирования
+[OK] Открыта страница: /booking.html
+[ПАУЗА] Загруженная страница открыта для просмотра (2000 мс)
+[ПАУЗА] Смотрим первый шаг мастера бронирования (2500 мс)
+[ШАГ] Шаг 1. Заполняем даты и параметры поездки
+[ПАУЗА] Поле очищено (500 мс)
+[OK] Поле очищено и заполнено: By.name: checkIn -> 05-10
+[ПАУЗА] Смотрим новое значение поля (1200 мс)
+[ПАУЗА] Поле очищено (500 мс)
+[OK] Поле очищено и заполнено: By.name: checkOut -> 05-15
+[ПАУЗА] Смотрим новое значение поля (1200 мс)
+[OK] Выбрано количество гостей: 2
+[ПАУЗА] Смотрим выбранное количество гостей (1200 мс)
+[OK] Выбрана цель поездки: Оздоровительный отдых
+[ПАУЗА] Смотрим заполненный первый шаг (1200 мс)
+[OK] Выполнен переход на следующий шаг мастера бронирования
+[ПАУЗА] Смотрим следующий шаг мастера (2500 мс)
+[ШАГ] Шаг 2. Выбираем номер Комфорт
+[OK] Выбран вариант: Комфорт
+[ПАУЗА] Смотрим выбранный radio-вариант (1200 мс)
+[OK] Выполнен переход на следующий шаг мастера бронирования
+[ПАУЗА] Смотрим следующий шаг мастера (2500 мс)
+[ШАГ] Шаг 3. Отмечаем дополнительный массаж
+[OK] Отмечена дополнительная услуга: массаж
+[ПАУЗА] Смотрим выбранные дополнительные услуги (1200 мс)
+[OK] Выполнен переход на следующий шаг мастера бронирования
+[ПАУЗА] Смотрим следующий шаг мастера (2500 мс)
+[ШАГ] Шаг 4. Заполняем контактные данные
+[ПАУЗА] Поле очищено (500 мс)
+[OK] Поле очищено и заполнено: By.name: fullName -> Иван Иванов
+[ПАУЗА] Смотрим новое значение поля (1200 мс)
+[ПАУЗА] Поле очищено (500 мс)
+[OK] Поле очищено и заполнено: By.name: phone -> +79001234567
+[ПАУЗА] Смотрим новое значение поля (1200 мс)
+[ПАУЗА] Поле очищено (500 мс)
+[OK] Поле очищено и заполнено: By.name: email -> guest@example.com
+[ПАУЗА] Смотрим новое значение поля (1200 мс)
+[ПАУЗА] Поле очищено (500 мс)
+[OK] Поле очищено и заполнено: By.name: comment -> Бронирование из UI теста
+[ПАУЗА] Смотрим новое значение поля (1200 мс)
+[ПАУЗА] Смотрим заполненные контактные данные (2500 мс)
+[OK] Выполнен переход на следующий шаг мастера бронирования
+[ПАУЗА] Смотрим следующий шаг мастера (2500 мс)
+[ШАГ] Шаг 5. Подтверждаем бронирование
+[OK] Нажата кнопка: Подтвердить бронирование
+[ПАУЗА] Смотрим результат нажатия кнопки (1200 мс)
+--------------------------------------------------
+Результат: ТЕСТ ПРОЙДЕН
+Тест guestShouldCreateBookingAndPayFirstPayment завершился успешно
+
+Завершение теста. Закрываю браузер.
+[ПАУЗА] Небольшая пауза перед закрытием браузера (1200 мс)
+Браузер закрыт
+==================================================
+
+]]></system-out>
+    <system-err><![CDATA[мар. 26, 2026 8:17:47 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+мар. 26, 2026 8:17:47 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.154. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="reviewFormShouldSaveReview" classname="sanatorium.SanatoriumUiTest" time="15.411">
+    <system-out><![CDATA[==================================================
+Подготовка браузера перед тестом
+==================================================
+Браузер Chrome успешно открыт
+
+[ПАУЗА]  (2500 мс)
+Запущен тест: reviewFormShouldSaveReview
+Что проверяем: Проверяем отправку отзыва через публичную страницу отзывов.
+--------------------------------------------------
+[ШАГ] Открываем страницу отзывов
+[OK] Открыта страница: /reviews.html
+[ПАУЗА] Загруженная страница открыта для просмотра (2000 мс)
+[ШАГ] Заполняем имя и текст отзыва
+[OK] Поле заполнено: By.name: name -> Тестовый гость 1774502318134
+[ПАУЗА] Смотрим введённое значение (1200 мс)
+[OK] Поле заполнено: By.name: review -> Очень понравился интерфейс сайта и структура личного кабинета.
+[ПАУЗА] Смотрим введённое значение (1200 мс)
+[ШАГ] Выбираем максимальную оценку
+[OK] Выбрана оценка для отзыва
+[ПАУЗА] Смотрим заполненную форму отзыва (1200 мс)
+[ШАГ] Отправляем отзыв
+[OK] Нажата кнопка: Отправить отзыв
+[ПАУЗА] Смотрим результат нажатия кнопки (1200 мс)
+[ШАГ] Проверяем сообщение об успешном сохранении
+[OK] Найден ожидаемый текст на странице
+[ПАУЗА] Даём время увидеть сообщение на странице (1200 мс)
+[ПАУЗА] Можно посмотреть результат отправки отзыва (2500 мс)
+--------------------------------------------------
+Результат: ТЕСТ ПРОЙДЕН
+Тест reviewFormShouldSaveReview завершился успешно
+
+Завершение теста. Закрываю браузер.
+[ПАУЗА] Небольшая пауза перед закрытием браузера (1200 мс)
+Браузер закрыт
+==================================================
+
+]]></system-out>
+    <system-err><![CDATA[мар. 26, 2026 8:18:35 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+мар. 26, 2026 8:18:35 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.154. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="mainPageShouldOpen" classname="sanatorium.SanatoriumUiTest" time="10.365">
+    <system-out><![CDATA[==================================================
+Подготовка браузера перед тестом
+==================================================
+Браузер Chrome успешно открыт
+
+[ПАУЗА]  (2500 мс)
+Запущен тест: mainPageShouldOpen
+Что проверяем: Проверяем, что главная страница открывается и содержит основные элементы интерфейса.
+--------------------------------------------------
+[ШАГ] Открываем главную страницу
+[OK] Открыта страница: /index.html
+[ПАУЗА] Загруженная страница открыта для просмотра (2000 мс)
+[ШАГ] Ждём корректный заголовок страницы
+[ПАУЗА] Смотрим заголовок и верхнюю часть страницы (1200 мс)
+[ШАГ] Проверяем наличие основного текста и кнопок
+[ПАУЗА] Можно посмотреть главный экран перед окончанием теста (2500 мс)
+--------------------------------------------------
+Результат: ТЕСТ ПРОЙДЕН
+Тест mainPageShouldOpen завершился успешно
+
+Завершение теста. Закрываю браузер.
+[ПАУЗА] Небольшая пауза перед закрытием браузера (1200 мс)
+Браузер закрыт
+==================================================
+
+]]></system-out>
+    <system-err><![CDATA[мар. 26, 2026 8:18:51 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+мар. 26, 2026 8:18:51 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.154. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="registrationShouldCreateAccount" classname="sanatorium.SanatoriumUiTest" time="20.388">
+    <system-out><![CDATA[==================================================
+Подготовка браузера перед тестом
+==================================================
+Браузер Chrome успешно открыт
+
+[ПАУЗА]  (2500 мс)
+Запущен тест: registrationShouldCreateAccount
+Что проверяем: Проверяем регистрацию нового пользователя через форму сайта.
+--------------------------------------------------
+[ШАГ] Открываем страницу регистрации
+[OK] Открыта страница: /register.html
+[ПАУЗА] Загруженная страница открыта для просмотра (2000 мс)
+[ШАГ] Заполняем форму регистрации новыми данными
+[OK] Поле заполнено: By.name: firstName -> Петя
+[ПАУЗА] Смотрим введённое значение (1200 мс)
+[OK] Поле заполнено: By.name: lastName -> Петров
+[ПАУЗА] Смотрим введённое значение (1200 мс)
+[OK] Поле заполнено: By.name: email -> student1774502343925@test.ru
+[ПАУЗА] Смотрим введённое значение (1200 мс)
+[OK] Поле заполнено: By.name: phone -> +74502343926
+[ПАУЗА] Смотрим введённое значение (1200 мс)
+[OK] Поле заполнено: By.name: password -> 12345678
+[ПАУЗА] Смотрим введённое значение (1200 мс)
+[OK] Поле заполнено: By.name: repeatPassword -> 12345678
+[ПАУЗА] Смотрим введённое значение (1200 мс)
+[OK] Поле заполнено: By.name: comment -> Регистрация через UI тест
+[ПАУЗА] Смотрим введённое значение (1200 мс)
+[ШАГ] Проверяем галочку согласия
+[ШАГ] Отправляем форму регистрации
+[OK] Нажата кнопка: Создать аккаунт
+[ПАУЗА] Смотрим результат нажатия кнопки (1200 мс)
+[ШАГ] Проверяем успешный переход в личный кабинет
+[OK] Найден ожидаемый текст на странице
+[ПАУЗА] Даём время увидеть сообщение на странице (1200 мс)
+[ПАУЗА] Можно посмотреть, что регистрация привела в личный кабинет (2500 мс)
+--------------------------------------------------
+Результат: ТЕСТ ПРОЙДЕН
+Тест registrationShouldCreateAccount завершился успешно
+
+Завершение теста. Закрываю браузер.
+[ПАУЗА] Небольшая пауза перед закрытием браузера (1200 мс)
+Браузер закрыт
+==================================================
+
+]]></system-out>
+    <system-err><![CDATA[мар. 26, 2026 8:19:01 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+мар. 26, 2026 8:19:01 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.154. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="guestShouldUpdateProfileAndSendSupportMessage" classname="sanatorium.SanatoriumUiTest" time="39.217">
+    <system-out><![CDATA[==================================================
+Подготовка браузера перед тестом
+==================================================
+Браузер Chrome успешно открыт
+
+[ПАУЗА]  (2500 мс)
+Запущен тест: guestShouldUpdateProfileAndSendSupportMessage
+Что проверяем: Проверяем редактирование профиля и отправку обращения в поддержку.
+--------------------------------------------------
+[ШАГ] Входим в личный кабинет тестовым пользователем
+[OK] Открыта страница: /login.html
+[ПАУЗА] Загруженная страница открыта для просмотра (2000 мс)
+[OK] Поле заполнено: By.name: login -> guest@example.com
+[ПАУЗА] Смотрим введённое значение (1200 мс)
+[OK] Поле заполнено: By.name: password -> 123456
+[ПАУЗА] Смотрим введённое значение (1200 мс)
+[OK] Нажата кнопка: Войти
+[ПАУЗА] Смотрим результат нажатия кнопки (1200 мс)
+[OK] Найден ожидаемый текст на странице
+[ПАУЗА] Даём время увидеть сообщение на странице (1200 мс)
+[ПАУЗА] Можно посмотреть личный кабинет после входа (2500 мс)
+[ШАГ] Открываем страницу профиля
+[OK] Открыта страница: /cabinet/profile.html
+[ПАУЗА] Загруженная страница открыта для просмотра (2000 мс)
+[ШАГ] Меняем город и комментарий
+[ПАУЗА] Поле очищено (500 мс)
+[OK] Поле очищено и заполнено: By.name: city -> Москва
+[ПАУЗА] Смотрим новое значение поля (1200 мс)
+[ПАУЗА] Поле очищено (500 мс)
+[OK] Поле очищено и заполнено: By.name: comment -> Хочу номер потише и процедуры утром.
+[ПАУЗА] Смотрим новое значение поля (1200 мс)
+[ПАУЗА] Смотрим обновлённые данные профиля (1200 мс)
+[ШАГ] Сохраняем профиль
+[OK] Нажата кнопка: Сохранить изменения
+[ПАУЗА] Смотрим результат нажатия кнопки (1200 мс)
+[ШАГ] Проверяем, что профиль сохранился
+[OK] Найден ожидаемый текст на странице
+[ПАУЗА] Даём время увидеть сообщение на странице (1200 мс)
+[ПАУЗА] Можно посмотреть результат сохранения профиля (2500 мс)
+[ШАГ] Открываем страницу поддержки
+[OK] Открыта страница: /cabinet/support.html
+[ПАУЗА] Загруженная страница открыта для просмотра (2000 мс)
+[ШАГ] Заполняем форму обращения
+[OK] Поле заполнено: By.name: subject -> Вопрос по оплате 1774502364319
+[ПАУЗА] Смотрим введённое значение (1200 мс)
+[OK] Выбрана категория обращения
+[ПАУЗА] Смотрим выбранную категорию (1200 мс)
+[OK] Поле заполнено: By.name: message -> Подскажите, когда лучше вносить оставшуюся сумму?
+[ПАУЗА] Смотрим введённое значение (1200 мс)
+[ПАУЗА] Смотрим заполненную форму обращения (2500 мс)
+[ШАГ] Отправляем обращение
+[OK] Нажата кнопка: Отправить обращение
+[ПАУЗА] Смотрим результат нажатия кнопки (1200 мс)
+[ШАГ] Проверяем сообщение об успешной отправке
+[OK] Найден ожидаемый текст на странице
+[ПАУЗА] Даём время увидеть сообщение на странице (1200 мс)
+[ПАУЗА] Можно посмотреть итог отправки обращения (2500 мс)
+--------------------------------------------------
+Результат: ТЕСТ ПРОЙДЕН
+Тест guestShouldUpdateProfileAndSendSupportMessage завершился успешно
+
+Завершение теста. Закрываю браузер.
+[ПАУЗА] Небольшая пауза перед закрытием браузера (1200 мс)
+Браузер закрыт
+==================================================
+
+]]></system-out>
+    <system-err><![CDATA[мар. 26, 2026 8:19:21 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+мар. 26, 2026 8:19:21 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.154. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="loginWithWrongPasswordShouldShowError" classname="sanatorium.SanatoriumUiTest" time="14.097">
+    <system-out><![CDATA[==================================================
+Подготовка браузера перед тестом
+==================================================
+Браузер Chrome успешно открыт
+
+[ПАУЗА]  (2500 мс)
+Запущен тест: loginWithWrongPasswordShouldShowError
+Что проверяем: Проверяем, что при неверном пароле сайт показывает сообщение об ошибке входа.
+--------------------------------------------------
+[ШАГ] Открываем страницу входа
+[OK] Открыта страница: /login.html
+[ПАУЗА] Загруженная страница открыта для просмотра (2000 мс)
+[ШАГ] Вводим логин и неверный пароль
+[OK] Поле заполнено: By.name: login -> guest@example.com
+[ПАУЗА] Смотрим введённое значение (1200 мс)
+[OK] Поле заполнено: By.name: password -> wrong-password
+[ПАУЗА] Смотрим введённое значение (1200 мс)
+[ШАГ] Нажимаем кнопку входа
+[OK] Нажата кнопка: Войти
+[ПАУЗА] Смотрим результат нажатия кнопки (1200 мс)
+[ШАГ] Проверяем сообщение об ошибке
+[OK] Найден ожидаемый текст на странице
+[ПАУЗА] Даём время увидеть сообщение на странице (1200 мс)
+[ПАУЗА] Смотрим сообщение об ошибке на странице входа (2500 мс)
+--------------------------------------------------
+Результат: ТЕСТ ПРОЙДЕН
+Тест loginWithWrongPasswordShouldShowError завершился успешно
+
+Завершение теста. Закрываю браузер.
+[ПАУЗА] Небольшая пауза перед закрытием браузера (1200 мс)
+Браузер закрыт
+==================================================
+
+]]></system-out>
+    <system-err><![CDATA[мар. 26, 2026 8:20:00 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+мар. 26, 2026 8:20:00 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.154. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -62,7 +62,7 @@ public class DatabaseRepository {
         }
 
         String text = String.join(System.lineSeparator(),
-                "# Настройки подключения к MySQL / MariaDB",
+                "# Настройки подключения к MySQL",
                 "db.host=localhost",
                 "db.port=3306",
                 "db.name=sanatorium_db",
