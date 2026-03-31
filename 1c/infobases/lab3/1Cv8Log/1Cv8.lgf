@@ -24,4 +24,6 @@
 {5,60e47d19-a06b-47e4-9dfc-3475e1db12f1,"Справочник.Студенты",2},
 {3,"WebSocket",3},
 {3,"BackgroundJob",4},
-{4,"_$Data$_.Update",13}
+{4,"_$Data$_.Update",13},
+{2,"PK-Dmitry",2},
+{13,2,1}
