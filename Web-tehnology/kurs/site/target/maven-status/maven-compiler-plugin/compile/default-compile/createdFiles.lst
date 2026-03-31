@@ -7,7 +7,6 @@ sanatorium\SupportRequest.class
 sanatorium\SanatoriumServer$ScheduleItem.class
 sanatorium\TemplateUtils.class
 sanatorium\HttpUtils.class
-sanatorium\DatabaseRepository.class
 sanatorium\PasswordUtils.class
 sanatorium\Payment.class
 sanatorium\Review.class

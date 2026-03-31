@@ -38,8 +38,8 @@ public class DatabaseRepository {
 
         host = properties.getProperty("db.host", "localhost").trim();
         port = properties.getProperty("db.port", "3306").trim();
-        databaseName = properties.getProperty("db.name", "sanatorium_db").trim();
-        user = properties.getProperty("db.user", "root").trim();
+        databaseName = properties.getProperty("db.name", "").trim();
+        user = properties.getProperty("db.user", "").trim();
         password = properties.getProperty("db.password", "");
 
         if (!databaseName.matches("[a-zA-Z0-9_]+")) {
