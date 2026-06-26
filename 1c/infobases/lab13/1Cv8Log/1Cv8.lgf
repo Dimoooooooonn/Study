@@ -43,4 +43,7 @@
 {1,ded352ba-a825-493d-8632-7729349d22fd,"Программист",4},
 {13,1,4},
 {1,7880a211-457b-40c3-9a7a-ca21ac69ca8e,"Директор",5},
-{13,1,5}
+{13,1,5},
+{4,"_$InfoBase$_.DumpStart",23},
+{4,"_$InfoBase$_.DumpFinish",24},
+{4,"_$InfoBase$_.RestoreStart",25}

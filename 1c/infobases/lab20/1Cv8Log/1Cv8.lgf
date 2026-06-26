@@ -28,4 +28,6 @@ cc0e09fe-9903-40c8-b542-b9939ea51887
 {4,"_$Transaction$_.Rollback",15},
 {4,"_$PerformError$_",16},
 {5,dede3769-efe9-47c5-824f-82a4d8c52b1f,"Документ.ПродажаТоваров",3},
-{4,"_$Data$_.Unpost",17}
+{4,"_$Data$_.Unpost",17},
+{4,"_$InfoBase$_.DumpStart",18},
+{4,"_$InfoBase$_.DumpFinish",19}

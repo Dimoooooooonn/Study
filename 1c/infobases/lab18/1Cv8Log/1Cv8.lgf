@@ -28,4 +28,6 @@ c86403cc-97f7-4b1e-82e0-c76533dd3464
 {4,"_$Data$_.Post",15},
 {5,0b22dbd2-b00b-4093-94a8-1fde25f5422d,"Документ.ПродажаТоваров",4},
 {3,"WebSocket",3},
-{3,"BackgroundJob",4}
+{3,"BackgroundJob",4},
+{4,"_$InfoBase$_.DumpStart",16},
+{4,"_$InfoBase$_.DumpFinish",17}

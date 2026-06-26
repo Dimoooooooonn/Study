@@ -31,4 +31,6 @@
 {4,"_$Data$_.Post",14},
 {4,"_$Data$_.Update",15},
 {5,f9d3b1ba-36b0-4259-8270-5b5688189413,"Константа.ВестиМноговалютныйУчёт",5},
-{4,"_$Data$_.Unpost",16}
+{4,"_$Data$_.Unpost",16},
+{4,"_$InfoBase$_.DumpStart",17},
+{4,"_$InfoBase$_.DumpFinish",18}

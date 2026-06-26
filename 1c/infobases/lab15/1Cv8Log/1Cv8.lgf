@@ -32,4 +32,6 @@
 {4,"_$Data$_.Post",15},
 {3,"WebSocket",3},
 {3,"BackgroundJob",4},
-{4,"_$Transaction$_.Rollback",16}
+{4,"_$Transaction$_.Rollback",16},
+{4,"_$InfoBase$_.DumpStart",17},
+{4,"_$InfoBase$_.DumpFinish",18}

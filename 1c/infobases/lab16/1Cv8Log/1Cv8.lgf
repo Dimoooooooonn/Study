@@ -20,4 +20,6 @@ e71fd73a-27d2-40af-bf22-8761aefcbb12
 {4,"_$Transaction$_.Commit",11},
 {4,"_$PerformError$_",12},
 {3,"WebSocket",3},
-{3,"BackgroundJob",4}
+{3,"BackgroundJob",4},
+{4,"_$InfoBase$_.DumpStart",13},
+{4,"_$InfoBase$_.DumpFinish",14}

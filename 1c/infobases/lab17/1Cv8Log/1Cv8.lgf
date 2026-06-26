@@ -28,4 +28,6 @@
 {3,"BackgroundJob",4},
 {4,"_$Data$_.Update",15},
 {5,9001263c-7677-4638-92d6-59114e58dd74,"РегистрНакопления.ОстаткиТоваров",4},
-{4,"_$Data$_.Delete",16}
+{4,"_$Data$_.Delete",16},
+{4,"_$InfoBase$_.DumpStart",17},
+{4,"_$InfoBase$_.DumpFinish",18}
