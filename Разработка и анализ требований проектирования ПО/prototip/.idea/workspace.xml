@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96f807d7-722d-4542-a43a-c2cce863eac8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hh_parser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1c/infobases/lab19/1Cv8.1CD" beforeDir="false" afterPath="$PROJECT_DIR$/../../1c/infobases/lab19/1Cv8.1CD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1c/infobases/lab20/1Cv8.1CD" beforeDir="false" afterPath="$PROJECT_DIR$/../../1c/infobases/lab20/1Cv8.1CD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Summer Technology Internship Octave/completed works/1task/otchet1.docx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +24,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="37YJTMLx3A47LNuu6NBZdkOYTF3" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -36,7 +36,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "G:/Programs/traffic-expert-system"
   }
 }]]></component>
   <component name="RunManager" selected="Python.bot (1)">
